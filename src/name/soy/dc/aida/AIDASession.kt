@@ -26,10 +26,11 @@ class AIDASession(address:String,port:Int):Thread() {
 		while(true){
 			try{
 				var line = stream.readLine()
-				if(line.startsWith("data:")){
+				if(line.startsWith("data:")){//表示这已经是数据行了
+					line.split("\\{\\|\\}")
 					
 				}
-			}catch(e: IOException){
+			} catch (e: IOException) {
 				init()
 			}
 		}
