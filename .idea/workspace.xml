@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8668f081-3bb8-48cc-94a4-230468ac72be" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1h9InPKrKjfHQ94E4UA1aKC0TDw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8668f081-3bb8-48cc-94a4-230468ac72be" name="默认的" comment="" />
+      <created>1599417047967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599417047967</updated>
+      <workItem from="1599417053805" duration="474000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599417133139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599417133139" />
+    <state x="133" y="167" key="SettingsEditor" timestamp="1599417466246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="133" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599417466246" />
+    <state x="490" y="0" width="1178" height="1040" key="new project wizard" timestamp="1599417526747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="0" width="1178" height="1040" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599417526747" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599417104350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599417104350" />
+  </component>
+</project>
