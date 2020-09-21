@@ -1,5 +1,8 @@
 package name.soy.dc;
 
+import lombok.Getter;
+import name.soy.dc.device.DeviceManager;
+import name.soy.dc.sql.SQLSystem;
 import name.soy.dc.tasks.ScheduleSystem;
 
 public class DataCenter {
@@ -9,12 +12,21 @@ public class DataCenter {
 	 */
 	public ScheduleSystem schedule;
 	/**
-	 * 
+	 *
 	 */
-	public HardwareSystem hardwareSystem;
-	
-	private DataCenter() {
-		
+
+	public DeviceManager deviceManager;
+
+	@Getter
+	IPrivateData privateData;
+
+	SQLSystem sql;
+	public SQLSystem sql() {
+		return sql;
 	}
-	
+
+	private DataCenter() {
+
+	}
+
 }

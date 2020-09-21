@@ -1,61 +1,598 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DataCenter:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8668f081-3bb8-48cc-94a4-230468ac72be" name="默认的" comment="" />
+    <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="WDNMD">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DataCenter_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centerclient/centerclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centerclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocol/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/IPrivateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/Device.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Aligns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/sql/SQLSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/MsgHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/WSDeciveInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/WSMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/monitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.jetbrains.kotlin.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/Device.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/HardwareSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/aida/AIDAEntry.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/aida/AIDASession.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/exe/AIDAMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/exe/LocalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/exe/LocalCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/packets/Command.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/packets/Packet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Aligns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Aligns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Executable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Executable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Pramas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1h9InPKrKjfHQ94E4UA1aKC0TDw" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="产品" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="failureBehavior" value="FAST" />
+        <option name="outputLevel" value="WARN" />
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hUvBkJPmnt36RRjRZK14s17cpl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="LombokPluginEnabledInProject" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tomcat 9.0/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.43103448" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="name.soy.dc.device" />
+      <recent name="name.soy.dc.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\DataCenter\web" />
+      <recent name="Z:\DataCenter\src\name\soy\dc\packets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.CenterClient">
+    <configuration name="CenterClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.soy.dc.client.CenterClient" />
+      <module name="centerclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="name.soy.dc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customJrePath" value="null" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <deployment>
+        <artifact name="DataCenter:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DataCenter_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_DataCenter" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61156" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DataCenter:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="应用程序.CenterClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.CenterClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8668f081-3bb8-48cc-94a4-230468ac72be" name="默认的" comment="" />
-      <created>1599417047967</created>
+      <changelist id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="" />
+      <created>1600078351683</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599417047967</updated>
-      <workItem from="1599417053805" duration="474000" />
+      <updated>1600078351683</updated>
+      <workItem from="1600078358802" duration="4095000" />
+      <workItem from="1600082851843" duration="9248000" />
+      <workItem from="1600094479377" duration="2751000" />
+      <workItem from="1600133089334" duration="953000" />
+      <workItem from="1600144703362" duration="595000" />
+      <workItem from="1600154113102" duration="14030000" />
+      <workItem from="1600228339832" duration="10461000" />
+      <workItem from="1600248960237" duration="3800000" />
+      <workItem from="1600264147318" duration="626000" />
+      <workItem from="1600266103235" duration="2688000" />
+      <workItem from="1600302656677" duration="1396000" />
+      <workItem from="1600304070587" duration="235000" />
+      <workItem from="1600304318684" duration="9635000" />
+      <workItem from="1600351196717" duration="1845000" />
+      <workItem from="1600394186255" duration="13169000" />
+      <workItem from="1600505503448" duration="1208000" />
+      <workItem from="1600524863943" duration="4566000" />
+      <workItem from="1600573760572" duration="1070000" />
+      <workItem from="1600576021328" duration="13743000" />
+      <workItem from="1600613856432" duration="4172000" />
+      <workItem from="1600683364002" duration="1044000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="WDNMD" />
+    <option name="LAST_COMMIT_MESSAGE" value="WDNMD" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599417133139">
+    <state x="904" y="467" key="#Custom_Plugin_Repositories" timestamp="1600082729552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599417133139" />
-    <state x="133" y="167" key="SettingsEditor" timestamp="1599417466246">
+    <state x="904" y="467" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1600082729552" />
+    <state x="842" y="381" key="#Notifications" timestamp="1600085376429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="133" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599417466246" />
-    <state x="490" y="0" width="1178" height="1040" key="new project wizard" timestamp="1599417526747">
+    <state x="842" y="381" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600085376429" />
+    <state x="352" y="364" key="#SQL_方言" timestamp="1600266969231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="0" width="1178" height="1040" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599417526747" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599417104350">
+    <state x="352" y="364" key="#SQL_方言/0.0.1920.1040@0.0.1920.1040" timestamp="1600266969231" />
+    <state x="597" y="372" key="#Tomcat_Server" timestamp="1600306169208">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="597" y="372" key="#Tomcat_Server/0.0.1440.860@0.0.1440.860" timestamp="1600306169208" />
+    <state x="646" y="281" key="#Web浏览器" timestamp="1600306145766">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="646" y="281" key="#Web浏览器/0.0.1440.860@0.0.1440.860" timestamp="1600306145766" />
+    <state x="652" y="139" key="#client" timestamp="1600327610296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599417104350" />
+    <state x="652" y="139" key="#client/0.0.1920.1040@0.0.1920.1040" timestamp="1600327610296" />
+    <state x="331" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600441197775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="277" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600306175533" />
+    <state x="331" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600441197775" />
+    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600437516105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600437516105" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1600616197677">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1600313705839" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600616197677" />
+    <state x="619" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1600080323446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600080323446" />
+    <state x="432" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600312562788">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="432" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1600312562788" />
+    <state x="677" y="73" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600247758773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="73" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600247758773" />
+    <state x="600" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600592387892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600236468638" />
+    <state x="600" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600592387892" />
+    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1600247891428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="499" y="204" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600235840194" />
+    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600247891428" />
+    <state x="726" y="52" key="#自动导入" timestamp="1600590236943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="52" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1600590236943" />
+    <state x="440" y="94" key="#项目结构" timestamp="1600441247327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="8" key="#项目结构/0.0.1440.860@0.0.1440.860" timestamp="1600304361070" />
+    <state x="440" y="94" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1600441247327" />
+    <state x="282" y="322" key="FileChooserDialogImpl" timestamp="1600684011772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="212" y="266" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600306167927" />
+    <state x="282" y="322" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600684011772" />
+    <state x="826" y="417" key="Github.ShareDialog" timestamp="1600080538896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="826" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600080538896" />
+    <state width="1877" height="42" key="GridCell.Tab.0.bottom" timestamp="1600343105488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="42" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600343105488" />
+    <state width="1877" height="42" key="GridCell.Tab.0.center" timestamp="1600343105488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="42" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600343105488" />
+    <state width="1877" height="42" key="GridCell.Tab.0.left" timestamp="1600343105488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="42" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600343105488" />
+    <state width="1877" height="42" key="GridCell.Tab.0.right" timestamp="1600343105488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="42" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600343105488" />
+    <state width="798" height="281" key="GridCell.Tab.1.bottom" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.1.center" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.1.left" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.1.right" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.2.bottom" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.2.center" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.2.left" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state width="798" height="281" key="GridCell.Tab.2.right" timestamp="1600327219059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="281" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600327219059" />
+    <state x="333" y="102" key="Maven.ArtifactSearchDialog" timestamp="1600440823771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="84" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1600312453852" />
+    <state x="333" y="102" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600440823771" />
+    <state x="315" y="129" width="1140" height="708" key="SettingsEditor" timestamp="1600603764387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="257" y="80" width="1140" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600304305535" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1600082244257" />
+    <state x="315" y="129" width="998" height="809" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600603764387" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1600529368497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="277" y="212" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1600308914862" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600529368497" />
+    <state x="310" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600237091482">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="310" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860@0.0.1440.860" timestamp="1600237091482" />
+    <state x="495" y="98" width="567" height="665" key="find.popup" timestamp="1600309104915">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="495" y="98" width="567" height="665" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1600309104915" />
+    <state x="660" y="118" width="599" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600085344582" />
+    <state x="551" y="92" key="new project wizard" timestamp="1600585279127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="4" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1600312335292" />
+    <state x="551" y="92" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600585279127" />
+    <state x="483" y="106" width="663" height="460" key="refactoring.ChangeSignatureDialog" timestamp="1600527997481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="362" y="88" width="663" height="460" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1600313181788" />
+    <state x="483" y="106" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600527997481" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600094670473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600094670473" />
+    <state x="790" y="310" key="svn.repositoryBrowser" timestamp="1600080551328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="310" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1600080551328" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../Tomcat 9.0/lib/websocket-api.jar!/javax/websocket/OnMessage.class</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

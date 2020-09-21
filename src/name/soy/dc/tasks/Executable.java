@@ -1,14 +1,14 @@
 package name.soy.dc.tasks;
 
 /**
- * 
+ *
  * @author soy
- * 
+ *
  */
 public interface Executable {
-	Pramas needPramas();
-	
+	Parameters needParameters();
+
 	boolean execute();
-	
-	
+
+
 }
