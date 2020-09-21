@@ -25,85 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="WDNMD">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DataCenter_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centerclient/centerclient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centerclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/IPrivateData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/Device.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Aligns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Verify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/sql/SQLSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/MsgHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/WSDeciveInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/WSMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/monitor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/verify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.jetbrains.kotlin.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/Device.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/HardwareSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/aida/AIDAEntry.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/aida/AIDASession.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/exe/AIDAMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/exe/LocalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/exe/LocalCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/packets/Command.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/packets/Packet.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Aligns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Aligns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Executable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Executable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Pramas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,8 +259,16 @@
       <workItem from="1600573760572" duration="1070000" />
       <workItem from="1600576021328" duration="13743000" />
       <workItem from="1600613856432" duration="4172000" />
-      <workItem from="1600683364002" duration="1044000" />
+      <workItem from="1600683364002" duration="1133000" />
     </task>
+    <task id="LOCAL-00001" summary="WDNMD">
+      <created>1600684447361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600684447361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

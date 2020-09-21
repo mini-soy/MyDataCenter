@@ -9,6 +9,8 @@ import java.util.List;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.val;
+import lombok.var;
 import name.soy.dc.DataCenter;
 
 public class DeviceManager {
@@ -31,7 +33,7 @@ public class DeviceManager {
 			server = new ServerSocket(SERVER_PORT);
 
 			for(;;) {
-				TempSocket tempSocket = new TempSocket(server.accept());
+				val tempSocket = new TempSocket(server.accept());
 				temps.add(tempSocket);
 				new Thread().start();
 			}
