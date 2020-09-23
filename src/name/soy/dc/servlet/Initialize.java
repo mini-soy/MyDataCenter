@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/init")
 public class Initialize extends HttpServlet {
 	private static final long serialVersionUID = -8657678748192431648L;
 	private static final Object lock = new Object();
@@ -20,6 +19,7 @@ public class Initialize extends HttpServlet {
 		synchronized (lock) {
 			try {
 				Class.forName("name.soy.dc.DataCenter");
+
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
 			}
@@ -27,14 +27,4 @@ public class Initialize extends HttpServlet {
 		super.init(config);
 	}
 
-	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		//标准json
-		resp.setContentType("application/json; charset=utf-8");
-		if(!Verify.isValid(req)){
-
-			return;
-		}
-		super.doGet(req, resp);
-	}
 }

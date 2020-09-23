@@ -1,9 +1,10 @@
 package name.soy.dc.device.aida
 
-import com.google.gson.Gson
+import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import name.soy.dc.device.Device
+import name.soy.dc.device.IDevice
 import name.soy.dc.device.aida.AIDAEntrySimple.*
+import name.soy.dc.servlet.ws.Monitor
 import java.util.*
 import kotlin.collections.HashMap
 
@@ -11,100 +12,120 @@ import kotlin.collections.HashMap
 /**
  * 设备的数据集合地，用于
  */
-class DeviceData(device: Device) {
-    companion object{
-        val gson = Gson()
+class DeviceData(device: IDevice) {
+    companion object {
+        //AIDA存储
+        var aidaset = HashMap<String, AIDAEntry<*>>()
+
+        private inline fun addaida(s: AIDAEntrySimple, data: Any?) {
+            aidaset["Simple${aidaset.size + 1}"] = AIDAEntry(s, data)
+        }
+        /**
+         * AIDA模块
+         */
         init {
-            
+            addaida(RUNNING_TIME, null)
+            addaida(CPU_FREQUENCY, null)
+            addaida(CPU_USAGE, null)
+            for (i in 1..64)
+                addaida(CPU_UNIT_USAGE, i)
+            addaida(MEMORY_USAGE, null)
+            addaida(MEMORY_UNUSED, null)
+
+            addaida(VMEMORY_USAGE, null)
+            addaida(VMEMORY_UNUSED, null)
+            for (i in 1..16) {
+                addaida(DISKIO_USAGE, i)
+                addaida(DISKI_SPEED, i)
+                addaida(DISKO_SPEED, i)
+            }
+            for (i in 'A'..'Z') {
+                addaida(DRIVER_USAGE, "$i")
+                addaida(DRIVER_UNUSED, "$i")
+            }
+            addaida(EXTERNAL_IP, null)
+            for (i in 1..8) {
+                addaida(NIC_DSPEED, i)
+                addaida(NIC_USPEED, i)
+                addaida(NIC_DOWNLOAD, i)
+                addaida(NIC_UPLOAD, i)
+                addaida(NIC_MAXSPEED, i)
+            }
+            for (i in 1..16)
+                addaida(DISK_TEMPERATURE, i)
+            addaida(GPU_USAGE, null)
+            addaida(GRAM_USAGE, null)
+            addaida(GRAM_UNUSED, null)
+            addaida(GPU_WASTES, null)
+
+            addaida(CPU_TEMPERATURE, null)
+            addaida(GPU_TEMPERATURE, null)
+
+            addaida(MB_TEMPERATURE, null)
+            addaida(CPU_WASTES, null)
+
+            addaida(POWER_STAT, null)
+            addaida(POWER_LEVEL, null)
+
+            addaida(GT_WASTES, null)
+            addaida(GT_TEMPERATURE, null)
+
+            addaida(SYSTEM_PROCESSING, null)
+            println("set:$aidaset")
         }
     }
+
     //AIDA数据
     var aidaData = HashMap<AIDAEntry<*>, String>()
-    //AIDA存储
-    var aidaset = HashMap<String, AIDAEntry<*>>()
+
 
     /**
      * NIC数据，初始化详见{@code initNIC()}
      */
     var nicdata = LinkedList<NICData>()
+
     //磁盘名称列表
     var disknames = LinkedList<String>()
 
     //设备
     var device = device
-    private inline fun addaida(s: AIDAEntrySimple, data: Any?) {
-        aidaset["Sample${aidaset.size + 1}"] = AIDAEntry(s, data);
-    }
 
-    /**
-     * AIDA模块
-     */
-    init {
-        addaida(RUNNING_TIME, null)
-        addaida(CPU_FREQUENCY, null)
-        addaida(CPU_USAGE, null)
-        for(i in 1..64)
-            addaida(CPU_UNIT_USAGE, i)
-        addaida(MEMORY_USAGE, null)
-        addaida(MEMORY_UNUSED, null)
 
-        addaida(VMEMORY_USAGE, null)
-        addaida(VMEMORY_UNUSED, null)
-        for(i in 1..16) {
-            addaida(DISKIO_USAGE, i)
-            addaida(DISKI_SPEED, i)
-            addaida(DISKO_SPEED, i)
+    fun serializeData(): JsonArray {
+        var list = JsonArray()
+        aidaData.forEach {
+            var obj = JsonObject()
+            obj.addProperty("id", it.key.simple?.name)
+            var data = it.key.data
+            if (data != null) {
+                if (data is Number)
+                    obj.addProperty("PH", data)
+                else if (data is String)
+                    obj.addProperty("PH", data)
+            }
+            obj.addProperty("value", it.value)
+            list.add(obj)
         }
-        for(i in 'A'..'Z') {
-            addaida(DRIVER_USAGE, "$i")
-            addaida(DRIVER_UNUSED, "$i")
-        }
-        addaida(EXTERNAL_IP, null)
-        for(i in 1..8) {
-            addaida(NIC_DSPEED, i)
-            addaida(NIC_USPEED, i)
-            addaida(NIC_DOWNLOAD, i)
-            addaida(NIC_UPLOAD, i)
-            addaida(NIC_MAXSPEED, i)
-        }
-        for(i in 1..16)
-            addaida(DISK_TEMPERATURE, i)
-        addaida(GPU_USAGE, null)
-        addaida(GRAM_USAGE, null)
-        addaida(GRAM_UNUSED, null)
-        addaida(GPU_WASTES, null)
-
-        addaida(CPU_TEMPERATURE, null)
-        addaida(GPU_TEMPERATURE, null)
-
-        addaida(MB_TEMPERATURE, null)
-        addaida(CPU_WASTES, null)
-
-        addaida(POWER_STAT, null)
-        addaida(POWER_LEVEL, null)
-
-        addaida(GT_WASTES, null)
-        addaida(GT_TEMPERATURE, null)
-
-        addaida(SYSTEM_PROCESSING, null)
+        return list
     }
 
     fun pushAIDA(value: HashMap<String, String>) {
         value.forEach {
-            aidaset[it.key]?.let { it1 -> aidaData[it1] = it.value };
+            aidaset[it.key]?.let { it1 -> aidaData[it1] = it.value }
         }
 
         inflate()
     }
 
     private fun inflate() {
+
         aidaData.forEach{
             var initnic = false
             var initdisk = false
             var simple = it.key;
             if(simple.simple == DISKIO_USAGE){
                 var i = simple.data;
-                if(i is Int&&i>disknames.size){
+                if(i is Int&&i > disknames.size){
                     initdisk = true;
                 }
             }
@@ -121,7 +142,11 @@ class DeviceData(device: Device) {
                 initdisk();
             }
         }
-
+        Monitor.dsessions[device]?.forEach {
+            if(it.session.isOpen)
+                it.session.asyncRemote.sendText(serializeData().toString())
+            else it.session.close()
+        }
     }
 
     /**

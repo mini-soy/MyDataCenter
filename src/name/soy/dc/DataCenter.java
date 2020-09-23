@@ -18,7 +18,7 @@ public class DataCenter {
 	public DeviceManager deviceManager;
 
 	@Getter
-	IPrivateData privateData;
+	IPrivateData privateData = new MyPrivateData();
 
 	SQLSystem sql;
 	public SQLSystem sql() {
@@ -26,7 +26,10 @@ public class DataCenter {
 	}
 
 	private DataCenter() {
+		deviceManager = new DeviceManager(this);
+		sql = new SQLSystem(this);
 
+		System.out.println("DataCenter启动完成");
 	}
 
 }

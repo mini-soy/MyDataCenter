@@ -21,11 +21,20 @@ public class DeviceList extends HttpServlet {
 		resp.setContentType("application/json; charset=utf-8");
 		List<IDevice> devices = DataCenter.center.deviceManager.getDevices();
 		JsonArray arr = new JsonArray();
-		devices.forEach((e)->{
-			JsonObject data = new JsonObject();
-			data.addProperty("deviceName",e.getDeviceName());
-			data.addProperty("deviceType",e.getDeviceType().getType());
-		});
+		synchronized (devices) {
+			devices.forEach((e) -> {
+				JsonObject data = new JsonObject();
+				data.addProperty("deviceName", e.getDeviceName());
+				data.addProperty("deviceType", e.getDeviceType().name().toLowerCase());
+				arr.add(data);
+			});
+		}
+		try {
+			resp.getWriter().print(arr);
+			resp.getWriter().close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
 	

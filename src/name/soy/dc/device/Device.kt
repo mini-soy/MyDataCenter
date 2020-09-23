@@ -1,6 +1,7 @@
 package name.soy.dc.device;
 
 import javafx.util.Callback
+import jdk.nashorn.internal.objects.annotations.Getter
 import name.soy.dc.device.aida.AIDASession
 import name.soy.dc.device.aida.DeviceData
 import name.soy.dc.packets.CMDResult
@@ -18,6 +19,7 @@ class Device(private val socket: Socket):Runnable,IDevice {
 
 	private lateinit var deviceName:String
 	private lateinit var AIDASession: AIDASession
+
 	private lateinit var data: DeviceData
 
 	private var deviceType: DeviceType = DeviceType.UNKNOWN
@@ -57,5 +59,6 @@ class Device(private val socket: Socket):Runnable,IDevice {
 
 	override fun getDeviceName(): String = deviceName
 	override fun getDeviceType(): DeviceType = deviceType
+	override fun getDeviceData(): DeviceData = data
 
 }

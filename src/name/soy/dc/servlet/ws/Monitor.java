@@ -2,42 +2,44 @@ package name.soy.dc.servlet.ws;
 
 import com.google.gson.JsonObject;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 import name.soy.dc.DataCenter;
 import name.soy.dc.device.IDevice;
-import name.soy.dc.utils.MsgHeader;
-import name.soy.dc.utils.WSMsg;
 
 import javax.websocket.*;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
-import static name.soy.dc.utils.WSMsg.*;
-import static name.soy.dc.utils.MsgHeader.*;
+import java.util.List;
+
+import static name.soy.dc.utils.WSMsg.INVALID_DEVICE;
+
 @ServerEndpoint("/device-monitor/{device}")
 public class Monitor {
 
-
-    HashMap<Session,MonitorSession> sessions = new HashMap<>();
-
+    public static HashMap<IDevice, List<MonitorSession>> dsessions = new HashMap<>();
+    private static HashMap<Session,MonitorSession> sessions = new HashMap<>();
     @OnOpen
     public void onOpen(@PathParam("device")String device, Session session,EndpointConfig config){
-        IDevice d = DataCenter.center.deviceManager.getDeive(device);
-        if(d!=null){
-            try {
-                sendText(session,ERROR,INVALID_DEVICE.get());
+//        System.out.println("新连接来了:"+session+"/"+device);
+        IDevice d = DataCenter.center.deviceManager.getDevice(device);
 
+        if(d==null){
+            try {
+                JsonObject obj = INVALID_DEVICE.get();
+
+                session.getBasicRemote().sendText(obj.toString());
                 session.close();
                 return;
-            } catch (IOException e) {}
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-        sessions.put(session, new MonitorSession(d));
+        sessions.put(session, new MonitorSession(d, session));
     }
 
-    private void sendText(Session session, MsgHeader header, JsonObject obj) throws IOException {
-        session.getBasicRemote().sendText(new StringBuilder().append(header).append(obj).toString());
-    }
+
 
     @OnClose
     public void onClose(@PathParam("device")String device,Session session,CloseReason reason) throws IOException {
@@ -46,20 +48,12 @@ public class Monitor {
 
     @OnMessage
     public void onMessage(@PathParam("device")String device,String message,Session session) throws IOException {
-        
+
     }
 
     @OnError
     public void onError(@PathParam("device")String device,Session session, Throwable error) {
         error.printStackTrace();
     }
-
-}
-@Data
-@RequiredArgsConstructor
-class MonitorSession{
-    boolean authed = false;
-
-    final IDevice device;
 
 }

@@ -1,3 +1,14 @@
+li,ul,body,ol,a,p{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+li,ul,ol{
+	list-style: none;
+}
+
 #top_banner{
 	width: 100%;
 	

@@ -6,20 +6,28 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Vector;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
 import lombok.var;
 import name.soy.dc.DataCenter;
+import name.soy.dc.annotation.Manager;
 
+@Manager
 public class DeviceManager {
 	public static final short SERVER_PORT = 21212;
+	private LocalDevice local;
+
+	public LocalDevice local(){
+		return local;
+	}
 	/**
 	 * 所有设备，包括本地设备
 	 */
 	@Getter
-	List<IDevice> devices = new ArrayList<>();
+	Vector<IDevice> devices = new Vector<>();
 
 	ServerSocket server;
 
@@ -28,23 +36,33 @@ public class DeviceManager {
 	List<TempSocket> temps = new ArrayList<>();
 
 	public DeviceManager(DataCenter center) {
-		try {
-			//服务器端口,
-			server = new ServerSocket(SERVER_PORT);
+		local = new LocalDevice();
+		devices.add(local);
 
-			for(;;) {
-				val tempSocket = new TempSocket(server.accept());
-				temps.add(tempSocket);
-				new Thread().start();
+		this.center = center;
+		new Thread(()->{
+			try {
+				//服务器端口,
+				server = new ServerSocket(SERVER_PORT);
+
+				for(;;) {
+					synchronized (temps) {
+						val tempSocket = new TempSocket(server.accept());
+						temps.add(tempSocket);
+						new Thread(tempSocket,"tempSocket-"+tempSocket.s.getInetAddress()).start();
+					}
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		}).start();
+
+		System.out.println("DeviceManager已经部署");
 	}
 
-    public IDevice getDeive(String device) {
+    public IDevice getDevice(String device) {
 		for(IDevice d:devices)
-			if(d.equals(device))return d;
+			if(d.getDeviceName().equals(device))return d;
 		return null;
     }
 
@@ -63,7 +81,9 @@ public class DeviceManager {
 					Device d = new Device(s);
 					synchronized (temps) {
 						temps.remove(this);
-						devices.add(d);
+						synchronized (devices) {
+							devices.add(d);
+						}
 					}
 				} else {
 					s.getOutputStream().write("验证失败".getBytes());
