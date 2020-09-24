@@ -94,7 +94,7 @@ class DeviceData(device: IDevice) {
     fun serializeData(): JsonArray {
         var list = JsonArray()
         aidaData.forEach {
-            var obj = JsonObject()
+            val obj = JsonObject()
             obj.addProperty("id", it.key.simple?.name)
             var data = it.key.data
             if (data != null) {
@@ -122,24 +122,24 @@ class DeviceData(device: IDevice) {
         aidaData.forEach{
             var initnic = false
             var initdisk = false
-            var simple = it.key;
+            var simple = it.key
             if(simple.simple == DISKIO_USAGE){
-                var i = simple.data;
+                var i = simple.data
                 if(i is Int&&i > disknames.size){
-                    initdisk = true;
+                    initdisk = true
                 }
             }
             if(simple.simple == NIC_MAXSPEED){
-                var i = simple.data;
+                var i = simple.data
                 if(i is Int&&i>disknames.size){
-                    initnic = true;
+                    initnic = true
                 }
             }
             if(initnic){
                 initNIC()
             }
             if(initdisk){
-                initdisk();
+                initdisk()
             }
         }
         Monitor.dsessions[device]?.forEach {

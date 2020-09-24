@@ -17,9 +17,10 @@ class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.devic
 	}
 
 	fun init(i:Int) {
-		if(i>=10)
-			LogManager.get!!.log(LogEntry.AIDA, Level.WARNING,"AIDA目标:\"${url}\"已经尝试10次获取,均为失败")
+		if(i>=10) {
+			LogManager.get!!.log(LogEntry.AIDA, Level.WARNING, "AIDA目标:\"${url}\"已经尝试10次获取,均为失败")
 			println("AIDA目标:\"${url}\"已经尝试10次获取,均为失败")
+		}
 		try {
 			var con = HttpConnection.connect(url)
 
@@ -47,7 +48,7 @@ class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.devic
 					for(entry in sarr) {
 						var e_p = entry.split("|")
 						if (e_p.size >= 2) {
-							if (!(e_p[1].isEmpty() || e_p[1].equals("N/A"))) {
+							if (!(e_p[1].isEmpty() || e_p[1] == "N/A")) {
 								value[e_p[0]] = e_p[1]
 							}
 						}

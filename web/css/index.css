@@ -9,7 +9,11 @@ li,ul,ol{
 	list-style: none;
 }
 
-#top_banner{
+#top{
 	width: 100%;
-	
+}
+#top li{
+	width: 15.625rem;
+	display: inline-block;
+	height: 7.5rem;
 }

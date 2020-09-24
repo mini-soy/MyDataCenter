@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<title>数 据 中 心</title>
+	<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="https://cdn.staticfile.org/echarts/4.5.0/echarts.min.js"></script>
+	<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+	<link rel="stylesheet" href="./css/index.css"/>
+</head>
+
+<body>
+	<!-- 自己使用的库，不在Hea里面-->
+	<script src="js/verify.js"></script>
+	<!--AIDA数据映射表 
+		@var aidaset
+	-->
+	<script src="js/aida-static.js"></script>
+	<!-- 天气js运算 -->
+	<script src="js/weather.js"></script>
+	<div id="top">
+		<ul>
+			<li v-for="device in devices" @click="select(device.deviceName)">
+				
+				{{device.deviceName}}:{{device.deviceType}}
+			</li>
+		</ul>
+	</div>
+	<script>
+		
+		function select(deviceName){
+	
+			// alert("选择了"+deviceName)
+		}
+		
+		
+		var devicesv;
+		$.ajax({
+			url:"./devices",
+			sync:false,
+			success:function (data) {
+				devicesv = new Vue({
+					el: '#top',
+					data:{
+						devices: data
+					}
+				})
+				
+			}
+		});
+	</script>
+	
+</body>
+</html>

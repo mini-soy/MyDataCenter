@@ -31,51 +31,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="WDNMD">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/annotation/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsoup-1.13.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/kotlin-stdlib-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/kotlin-stdlib-common-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/kotlin-stdlib-jdk8-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/aida-static.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DataCenter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DataCenter_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/weather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据中心.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/centerclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/Device.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/Device.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/exe/LocalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/exe/LocalCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Aligns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Aligns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/utils/WSMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/WSMsg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/verify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +51,10 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
         <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="AnnotationType" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -314,7 +277,9 @@
       <workItem from="1600691964519" duration="2852000" />
       <workItem from="1600702350554" duration="2097000" />
       <workItem from="1600738230255" duration="3517000" />
-      <workItem from="1600762620206" duration="25647000" />
+      <workItem from="1600762620206" duration="26791000" />
+      <workItem from="1600901631779" duration="70000" />
+      <workItem from="1600906237722" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="WDNMD">
       <created>1600684447361</created>
@@ -330,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600684725510</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AIDA数据完成!">
+      <created>1600846984676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600846984676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +324,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -405,7 +377,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="WDNMD" />
-    <option name="LAST_COMMIT_MESSAGE" value="WDNMD" />
+    <MESSAGE value="AIDA数据完成!" />
+    <MESSAGE value="添加xmind" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加xmind" />
   </component>
   <component name="WindowStateProjectService">
     <state x="829" y="442" key="#Chrome_设置" timestamp="1600780647226">
@@ -481,11 +455,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="52" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1600590236943" />
-    <state x="440" y="94" width="1231" height="852" key="#项目结构" timestamp="1600782244121">
+    <state x="440" y="94" width="1231" height="852" key="#项目结构" timestamp="1600927505910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="8" key="#项目结构/0.0.1440.860@0.0.1440.860" timestamp="1600304361070" />
-    <state x="440" y="94" width="1231" height="852" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1600782244121" />
+    <state x="440" y="94" width="1231" height="852" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1600927505910" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600684809950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -578,11 +552,11 @@
     <state x="257" y="80" width="1140" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600304305535" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1600082244257" />
     <state x="315" y="129" width="998" height="809" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600791928127" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1600684742103">
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1600847020629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="277" y="212" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1600308914862" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600684742103" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600847020629" />
     <state x="310" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600237091482">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -625,7 +599,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/web/js/aida-static.js</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

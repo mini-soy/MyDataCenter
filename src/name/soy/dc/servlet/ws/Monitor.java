@@ -9,11 +9,10 @@ import javax.websocket.*;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static name.soy.dc.utils.WSMsg.INVALID_DEVICE;
+import static name.soy.dc.utils.WSMsg.*;
 
 @ServerEndpoint("/device-monitor/{device}")
 public class Monitor {
