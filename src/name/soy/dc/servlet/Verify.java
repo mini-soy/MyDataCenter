@@ -26,9 +26,13 @@ public class Verify extends HttpServlet {
      * 0=>sucess
      * 1=>failed
      * -1=>server failed
+     *
      */
     public static int validcode(HttpServletRequest req) {
         return 0;
+    }
+    public static boolean validcode(String code){
+        return true;
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

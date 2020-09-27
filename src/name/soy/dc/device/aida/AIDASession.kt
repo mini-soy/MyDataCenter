@@ -7,6 +7,10 @@ import java.io.LineNumberReader
 import java.io.InputStreamReader
 import java.io.IOException
 import java.util.logging.Level
+
+/**
+ * 基于AIDA64的LCD Remote Sensor来建立的连接检查系统
+ */
 class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.device.getDeviceName()}->AIDASession") {
 	var url = "http://${address}:${port}/sse"
 	var data:DeviceData = data
@@ -15,7 +19,9 @@ class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.devic
 		init(0)
 		this.start()
 	}
-
+	/**
+	 * 未连接，重连所调用的方法
+	 */
 	fun init(i:Int) {
 		if(i>=10) {
 			LogManager.get!!.log(LogEntry.AIDA, Level.WARNING, "AIDA目标:\"${url}\"已经尝试10次获取,均为失败")
@@ -43,8 +49,6 @@ class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.devic
 					var value:HashMap<String,String> = HashMap()
 					var sarr = line.split("{|}").toMutableList()
 					sarr.removeAt(0)
-
-//					println("${sarr.size}:$sarr")
 					for(entry in sarr) {
 						var e_p = entry.split("|")
 						if (e_p.size >= 2) {
@@ -53,7 +57,6 @@ class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.devic
 							}
 						}
 					}
-
 					data.pushAIDA(value)
 				}
 			} catch (e: IOException) {

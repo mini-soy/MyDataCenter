@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>数 据 中 心</title>
+	<!-- jquery,jquery-cookie,charts,vue依赖 -->
+	<!-- 感谢staticfile.org提供的js公共源 -->
 	<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 	<script src="https://cdn.staticfile.org/echarts/4.5.0/echarts.min.js"></script>
@@ -11,30 +13,33 @@
 </head>
 
 <body>
-	<!-- 自己使用的库，不在Hea里面-->
+	<!-- 自己使用的库，不在Head里面 -->
+
+	<!-- 验证是否有权限 -->
 	<script src="js/verify.js"></script>
-	<!--AIDA数据映射表 
+	<!--
+		AIDA数据映射表
 		@var aidaset
 	-->
 	<script src="js/aida-static.js"></script>
 	<!-- 天气js运算 -->
 	<script src="js/weather.js"></script>
+
 	<div id="top">
 		<ul>
 			<li v-for="device in devices" @click="select(device.deviceName)">
-				
 				{{device.deviceName}}:{{device.deviceType}}
 			</li>
 		</ul>
+		<div id="weather">
+
+		</div>
 	</div>
 	<script>
-		
 		function select(deviceName){
-	
 			// alert("选择了"+deviceName)
 		}
-		
-		
+
 		var devicesv;
 		$.ajax({
 			url:"./devices",
@@ -53,3 +58,4 @@
 	
 </body>
 </html>
+<!-- 感谢你观看源代码~ -->

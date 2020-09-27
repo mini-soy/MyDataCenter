@@ -22,6 +22,8 @@ class DeviceData(device: IDevice) {
         }
         /**
          * AIDA模块
+         * {@file datacenter.rslcd}
+         *
          */
         init {
             addaida(RUNNING_TIME, null)
@@ -71,23 +73,28 @@ class DeviceData(device: IDevice) {
             addaida(GT_TEMPERATURE, null)
 
             addaida(SYSTEM_PROCESSING, null)
-            println("set:$aidaset")
+//            println("set:$aidaset")
         }
     }
 
-    //AIDA数据
+    /**
+     * AIDA数据
+     */
     var aidaData = HashMap<AIDAEntry<*>, String>()
-
 
     /**
      * NIC数据，初始化详见{@code initNIC()}
      */
     var nicdata = LinkedList<NICData>()
 
-    //磁盘名称列表
+    /**
+     * 磁盘名称列表
+     */
     var disknames = LinkedList<String>()
 
-    //设备
+    /**
+     * 设备
+     */
     var device = device
 
 
@@ -110,13 +117,13 @@ class DeviceData(device: IDevice) {
     }
 
     fun pushAIDA(value: HashMap<String, String>) {
-        value.forEach {
-            aidaset[it.key]?.let { it1 -> aidaData[it1] = it.value }
-        }
-
+        value.forEach{aidaset[it.key]?.let{it1 -> aidaData[it1] = it.value}}
         inflate()
     }
 
+    /**
+     * 分  析
+     */
     private fun inflate() {
 
         aidaData.forEach{
@@ -135,12 +142,8 @@ class DeviceData(device: IDevice) {
                     initnic = true
                 }
             }
-            if(initnic){
-                initNIC()
-            }
-            if(initdisk){
-                initdisk()
-            }
+            if(initnic) initNIC()
+            if(initdisk) initdisk()
         }
         Monitor.dsessions[device]?.forEach {
             if(it.session.isOpen)
@@ -178,9 +181,10 @@ class DeviceData(device: IDevice) {
                     continue
                 }
                 val vals = s.split(":".toRegex(), 2)
+                //CN支持，之后会考虑EN,以及更多语言...
                 if (vals.size == 2) {
                     val data = datas.first
-                    val prefix = vals[0].replace(".", "").trim();
+                    val prefix = vals[0].replace(".", "").trim()
                     if (prefix == "描述")
                         data.name = vals[1].trim()
                     else if (prefix == "IPv4 地址")
@@ -212,7 +216,7 @@ class DeviceData(device: IDevice) {
                 array[i] = array[i].trim()
             array.removeIf{obj->obj.isEmpty()}
             array.removeAt(0)
-            disknames = array;
+            disknames = array
         }
     }
 

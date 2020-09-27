@@ -11,13 +11,24 @@
 </head>
 
 <body>
-	<!-- 自己使用的库，不在Hea里面-->
+	<!-- 自己使用的库，不在Head里面-->
 	<script src="js/verify.js"></script>
+	<!--AIDA数据映射表 
+		@var aidaset
+	-->
 	<script src="js/aida-static.js"></script>
-	
+	<!-- 天气js运算 -->
+	<script src="js/weather.js"></script>
+
+	<script>
+		var a = "CPU_USAGE";
+		console.log(aidaset[a])
+	</script>
+
 	<div id="top">
 		<ul>
 			<li v-for="device in devices" @click="select(device.deviceName)">
+				
 				{{device.deviceName}}:{{device.deviceType}}
 			</li>
 		</ul>
@@ -25,7 +36,8 @@
 	<script>
 		
 		function select(deviceName){
-			alert("选择了"+deviceName)
+	
+			// alert("选择了"+deviceName)
 		}
 		
 		
@@ -37,7 +49,7 @@
 				devicesv = new Vue({
 					el: '#top',
 					data:{
-						devices:data
+						devices: data
 					}
 				})
 				

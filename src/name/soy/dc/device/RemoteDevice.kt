@@ -13,7 +13,7 @@ import java.io.ObjectOutputStream
 import java.net.Socket
 
 //Socket(内部网络)
-class Device(private val socket: Socket):Runnable,IDevice {
+class RemoteDevice(private val socket: Socket):Runnable,IDevice {
 	private lateinit var i:ObjectInputStream
 	private lateinit var o:ObjectOutputStream
 
@@ -31,6 +31,7 @@ class Device(private val socket: Socket):Runnable,IDevice {
 
 		i = ObjectInputStream(BufferedInputStream(socket.getInputStream(),10240))
 		o = ObjectOutputStream(BufferedOutputStream(socket.getOutputStream(),10240))
+
 		deviceName = i.readUTF()
 		deviceType = DeviceType.valueOf(i.readUTF())
 		data = DeviceData(this)
@@ -54,7 +55,6 @@ class Device(private val socket: Socket):Runnable,IDevice {
 			cmdcallbacks[id] = callback
 			o.writeObject(Command(id,cmd))
 		}
-
 	}
 
 	override fun getDeviceName(): String = deviceName

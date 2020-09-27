@@ -1,7 +1,7 @@
 //验证js,即使删除了,也无法访问啊,后端没有数据给你...
 $.ajax({
 	async: false,
-	url: "verify",
+	url: "./verify",
 	success: function(res){
 
 		switch(res["code"]){

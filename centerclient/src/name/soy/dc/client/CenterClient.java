@@ -20,9 +20,7 @@ public class CenterClient {
 
             config = new File("config.properties");
 
-            if(!config.exists()){
-
-            }
+            if(!config.exists()){}
 
             Properties properties = new Properties();
             properties.load(new FileReader(config));

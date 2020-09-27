@@ -11,7 +11,6 @@ import java.util.Vector;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
 import name.soy.dc.DataCenter;
 import name.soy.dc.annotation.Manager;
 
@@ -78,7 +77,7 @@ public class DeviceManager {
 			try {
 				s.getInputStream().read(b);
 				if(Arrays.equals(ob, b)){
-					Device d = new Device(s);
+					RemoteDevice d = new RemoteDevice(s);
 					synchronized (temps) {
 						temps.remove(this);
 						synchronized (devices) {
