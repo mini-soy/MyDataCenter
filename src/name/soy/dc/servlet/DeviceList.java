@@ -8,11 +8,12 @@ import name.soy.dc.device.IDevice;
 import java.io.IOException;
 import java.util.List;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+
 @WebServlet("/devices")
 public class DeviceList extends HttpServlet {
 	private static final long serialVersionUID = 6234863195538216602L;
@@ -29,6 +30,10 @@ public class DeviceList extends HttpServlet {
 				arr.add(data);
 			});
 		}
+		JsonObject test = new JsonObject();
+		test.addProperty("deviceName", "测试");
+		test.addProperty("deviceType","phone");
+		arr.add(test);
 		try {
 			resp.getWriter().print(arr);
 			resp.getWriter().close();

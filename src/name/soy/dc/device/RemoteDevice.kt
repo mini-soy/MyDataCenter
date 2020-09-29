@@ -1,7 +1,6 @@
 package name.soy.dc.device;
 
 import javafx.util.Callback
-import jdk.nashorn.internal.objects.annotations.Getter
 import name.soy.dc.device.aida.AIDASession
 import name.soy.dc.device.aida.DeviceData
 import name.soy.dc.packets.CMDResult

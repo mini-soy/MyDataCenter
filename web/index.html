@@ -24,16 +24,26 @@
 	<script src="js/aida-static.js"></script>
 	<!-- 天气js运算 -->
 	<script src="js/weather.js"></script>
+	<!-- WebSocket通信 -->
+	<script src="js/monitor.js"></script>
 
+	<!--天气背景啊-->
+	<img src="https://apip.weatherdt.com/20200701/bg/h5/101d.png" id="w_weather_img" class="blur" width="100%" height="50px" />
+
+	<!--顶端的条目-->
 	<div id="top">
 		<ul>
 			<li v-for="device in devices" @click="select(device.deviceName)">
-				{{device.deviceName}}:{{device.deviceType}}
+				{{device['deviceName']}}:{{device.deviceType}}
 			</li>
 		</ul>
+		<!--天气模块-->
 		<div id="weather">
-
+			<span id="w_city"></span>
 		</div>
+		<script>
+			w_apply();
+		</script>
 	</div>
 	<script>
 		function select(deviceName){

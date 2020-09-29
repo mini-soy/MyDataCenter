@@ -3,9 +3,9 @@
 
 // #w_city 城市id(如:杭州)
 var w_city;
-// 邮政id(如:330100)
+// 邮政id(如:330100),不需要显示
 var w_adcode;
-// 区域id,如(101210101)
+// 区域id,如(101210101),不需要显示
 var w_cid;
 // #w_temp 气温id(如:25℃)
 var w_temp;
@@ -57,6 +57,18 @@ function loadWeatherData(){
 			w_weather = now['cond_txt'];
 			wind_dir = now['wind_dir'];
 			wind_sc = now['wind_sc'];
+			w_apply();
 		}
 	})
+}
+function w_apply() {
+	$("#w_city").html(w_city);
+	$("#w_temp").html(w_temp);
+	$("#w_temp_low").html(w_temp_low);
+	$("#w_temp_high").html(w_temp_high);
+	$("#w_weather_code").html(w_weather_code);
+	$("#w_weather").html(w_weather);
+	$("#w_wind_dir").html(wind_dir);
+	$("#w_wind_sc").html(wind_sc);
+	$("#w_weather_img").attr({"src":"https://apip.weatherdt.com/20200701/bg/h5/"+w_weather_code+"d.png"});
 }

@@ -31,68 +31,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="WDNMD">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datacenter.rslcd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DataCenter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/DataCenter_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/centerclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager$TempSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager$TempSocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/target/classes/name/soy/dc/client/CenterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/target/classes/name/soy/dc/client/CenterClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$Companion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$NICData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$NICData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/DeviceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/DeviceList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/Verify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/ws/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/ws/Monitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/ws/MonitorSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/ws/MonitorSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/verify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/Device.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/Verify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/utils/MsgHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/utils/WSDeciveInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/utils/WSMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/WSMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/DeviceManager$TempSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/DeviceManager$TempSocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/DeviceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/LocalDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/LocalDevice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/AIDASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/AIDASession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/log/LogManager$queryLog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/log/LogManager$queryLog$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/log/LogManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/log/LogManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/servlet/ws/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/servlet/ws/MonitorSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/utils/MsgHeader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/utils/WSDeciveInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$NICData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$NICData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/device/aida/DeviceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/servlet/DeviceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/servlet/DeviceList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/servlet/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/servlet/Verify.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/name/soy/dc/utils/WSMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/soy/dc/utils/WSMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/kotlin-stdlib-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/kotlin-stdlib-common-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/kotlin-stdlib-jdk8-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/monitor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据中心.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/数据中心.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +146,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30232558" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -339,7 +312,11 @@
       <workItem from="1601021138524" duration="484000" />
       <workItem from="1601021636377" duration="3866000" />
       <workItem from="1601130331862" duration="3701000" />
-      <workItem from="1601186812620" duration="6186000" />
+      <workItem from="1601186812620" duration="9410000" />
+      <workItem from="1601214669893" duration="5795000" />
+      <workItem from="1601262264829" duration="782000" />
+      <workItem from="1601287359906" duration="2399000" />
+      <workItem from="1601294411343" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary="WDNMD">
       <created>1600684447361</created>
@@ -369,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600944439618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="weather.js">
+      <created>1601193155365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601193155365</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +430,8 @@
     <MESSAGE value="WDNMD" />
     <MESSAGE value="AIDA数据完成!" />
     <MESSAGE value="添加xmind" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加xmind" />
+    <MESSAGE value="weather.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="weather.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="829" y="442" key="#Chrome_设置" timestamp="1600780647226">
@@ -544,70 +529,102 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600080538896" />
-    <state width="650" height="281" key="GridCell.Tab.0.bottom" timestamp="1601034103614">
+    <state width="1293" height="485" key="GridCell.Tab.0.bottom" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="650" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601034103614" />
-    <state width="650" height="281" key="GridCell.Tab.0.center" timestamp="1601034103614">
+    <state width="1293" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.0.center" timestamp="1601262254566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="650" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601034103614" />
-    <state width="650" height="281" key="GridCell.Tab.0.left" timestamp="1601034103614">
+    <state width="1293" height="485" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254566" />
+    <state width="1293" height="485" key="GridCell.Tab.0.left" timestamp="1601262254566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="650" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601034103614" />
-    <state width="650" height="281" key="GridCell.Tab.0.right" timestamp="1601034103614">
+    <state width="1293" height="485" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254566" />
+    <state width="1293" height="485" key="GridCell.Tab.0.right" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="650" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601034103614" />
-    <state width="1029" height="234" key="GridCell.Tab.1.bottom" timestamp="1600846629621">
+    <state width="1293" height="485" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.1.bottom" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629621" />
-    <state width="1029" height="234" key="GridCell.Tab.1.center" timestamp="1600846629621">
+    <state width="1293" height="485" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.1.center" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629621" />
-    <state width="1029" height="234" key="GridCell.Tab.1.left" timestamp="1600846629621">
+    <state width="1293" height="485" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.1.left" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629621" />
-    <state width="1029" height="234" key="GridCell.Tab.1.right" timestamp="1600846629621">
+    <state width="1293" height="485" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.1.right" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629621" />
-    <state width="1029" height="234" key="GridCell.Tab.2.bottom" timestamp="1600846629622">
+    <state width="1293" height="485" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.2.bottom" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629622" />
-    <state width="1029" height="234" key="GridCell.Tab.2.center" timestamp="1600846629621">
+    <state width="1293" height="485" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.2.center" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629621" />
-    <state width="1029" height="234" key="GridCell.Tab.2.left" timestamp="1600846629621">
+    <state width="1293" height="485" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.2.left" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629621" />
-    <state width="1029" height="234" key="GridCell.Tab.2.right" timestamp="1600846629622">
+    <state width="1293" height="485" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.2.right" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629622" />
-    <state width="1029" height="234" key="GridCell.Tab.3.bottom" timestamp="1600846629622">
+    <state width="1293" height="485" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.3.bottom" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629622" />
-    <state width="1029" height="234" key="GridCell.Tab.3.center" timestamp="1600846629622">
+    <state width="1293" height="485" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.3.center" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629622" />
-    <state width="1029" height="234" key="GridCell.Tab.3.left" timestamp="1600846629622">
+    <state width="1293" height="485" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.3.left" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629622" />
-    <state width="1029" height="234" key="GridCell.Tab.3.right" timestamp="1600846629622">
+    <state width="1293" height="485" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="485" key="GridCell.Tab.3.right" timestamp="1601262254567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1029" height="234" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600846629622" />
+    <state width="1293" height="485" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601262254567" />
+    <state width="1293" height="379" key="GridCell.Tab.5.bottom" timestamp="1601215184392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.5.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184392" />
+    <state width="1293" height="379" key="GridCell.Tab.5.center" timestamp="1601215184392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.5.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184392" />
+    <state width="1293" height="379" key="GridCell.Tab.5.left" timestamp="1601215184392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.5.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184392" />
+    <state width="1293" height="379" key="GridCell.Tab.5.right" timestamp="1601215184392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.5.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184392" />
+    <state width="1293" height="379" key="GridCell.Tab.6.bottom" timestamp="1601215184024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.6.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184024" />
+    <state width="1293" height="379" key="GridCell.Tab.6.center" timestamp="1601215184024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.6.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184024" />
+    <state width="1293" height="379" key="GridCell.Tab.6.left" timestamp="1601215184024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.6.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184024" />
+    <state width="1293" height="379" key="GridCell.Tab.6.right" timestamp="1601215184024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="379" key="GridCell.Tab.6.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601215184024" />
     <state x="333" y="102" key="Maven.ArtifactSearchDialog" timestamp="1601130381044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -617,17 +634,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="793" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600684648962" />
-    <state x="315" y="129" width="1140" height="708" key="SettingsEditor" timestamp="1601130525485">
+    <state x="315" y="129" width="1140" height="708" key="SettingsEditor" timestamp="1601215270987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="257" y="80" width="1140" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600304305535" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1600082244257" />
-    <state x="315" y="129" width="998" height="809" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601130525485" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1600945406066">
+    <state x="315" y="129" width="998" height="809" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601215270987" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1601193166361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="277" y="212" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1600308914862" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600945406066" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193166361" />
     <state x="310" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600237091482">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
