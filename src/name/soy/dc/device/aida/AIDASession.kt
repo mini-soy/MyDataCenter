@@ -3,9 +3,9 @@ package name.soy.dc.device.aida
 import name.soy.dc.log.LogEntry
 import name.soy.dc.log.LogManager
 import org.jsoup.helper.HttpConnection
-import java.io.LineNumberReader
-import java.io.InputStreamReader
 import java.io.IOException
+import java.io.InputStreamReader
+import java.io.LineNumberReader
 import java.util.logging.Level
 
 /**
@@ -37,7 +37,7 @@ class AIDASession(address:String,port:Int,data: DeviceData):Thread("${data.devic
 
 			stream = LineNumberReader(InputStreamReader(con.execute().bodyStream(),"UTF-8"))
 		} catch (e: Exception) {
-			init(i+1);
+			init(i+1)
 		}
 	}
 

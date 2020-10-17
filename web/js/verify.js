@@ -3,7 +3,6 @@ $.ajax({
 	async: false,
 	url: "./verify",
 	success: function(res){
-
 		switch(res["code"]){
 			case 0:break;
 			case 1:

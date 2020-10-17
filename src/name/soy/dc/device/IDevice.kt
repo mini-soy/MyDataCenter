@@ -1,16 +1,19 @@
 package name.soy.dc.device
 
-import javafx.util.Callback
+import name.soy.dc.client.Client
 import name.soy.dc.device.aida.DeviceData
-import name.soy.dc.packets.CMDResult
+import name.soy.dc.tasks.exe.Executable
+import java.util.function.Consumer
 
 interface IDevice {
-    fun sendcmd(cmd:String,callback: Callback<CMDResult, Unit>)
+    fun sendCmd(cmd:String, callback: Consumer<Executable.ExecuteProgress>):Unit
 
     fun getDeviceName():String
 
     fun getDeviceType():DeviceType
 
     fun getDeviceData():DeviceData
+
+    operator fun unaryPlus():Client
 
 }

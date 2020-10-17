@@ -1,0 +1,75 @@
+li,ul,body,ol,a,p{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+li,ul,ol{
+	list-style: none;
+}
+/*位于顶端的标志*/
+#top{
+	width: 100%;
+	height: 50px;
+	/*border-bottom: black;*/
+	box-shadow: 0px 0px 8px 1px black;
+	text-align: center;
+}
+
+#top li{
+	/*border: solid 1px black;*/
+	width: 200px;
+	display: inline-block;
+	line-height: 45px;
+	margin-top: 2px;
+	height: 46px;
+	text-align: center;
+	font-size: 22px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 1px darkblue solid;
+	box-shadow: 1px 1px 3px black;
+	font-family: 华文楷体;
+	cursor: pointer;
+}
+
+#weather{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: -4;
+}
+#weather span{
+	font-size: 15px;
+}
+#weather span:last-child{
+	margin-right: 15px;
+}
+.top-entry-bg{
+	width: 200px;
+	height: 46px;
+	opacity: 0.4;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: white;
+	position: fixed;
+	z-index: -2;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+#w_weather_img{
+	position: absolute;
+	object-fit: cover;
+	z-index: -1000;
+}
+.top-bg{
+	float: left;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

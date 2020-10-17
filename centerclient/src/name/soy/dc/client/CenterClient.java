@@ -28,6 +28,9 @@ public class CenterClient {
                 properties.setProperty("ip","mapland.cn");
                 properties.setProperty("port","21212");
                 properties.setProperty("private-code","set bytecode in there");
+                properties.setProperty("minecraft_content","false");
+                properties.setProperty("device_content","true");
+
                 properties.store(new FileWriter(config),"default properties");
             }
 

@@ -38,7 +38,6 @@ function loadCID(){
 		success:function(data){
 			w_cid = data["HeWeather6"][0]["basic"][0]['cid'];
 			w_cid = w_cid.substring(2,w_cid.length);
-
 			w_city = data["HeWeather6"][0]["basic"][0]['location'];
 			loadWeatherData();
 		}
@@ -63,12 +62,13 @@ function loadWeatherData(){
 }
 function w_apply() {
 	$("#w_city").html(w_city);
-	$("#w_temp").html(w_temp);
+	$("#w_temp").html(w_temp+'℃');
 	$("#w_temp_low").html(w_temp_low);
 	$("#w_temp_high").html(w_temp_high);
 	$("#w_weather_code").html(w_weather_code);
 	$("#w_weather").html(w_weather);
 	$("#w_wind_dir").html(wind_dir);
 	$("#w_wind_sc").html(wind_sc);
-	$("#w_weather_img").attr({"src":"https://apip.weatherdt.com/20200701/bg/h5/"+w_weather_code+"d.png"});
+	$("#w_weather_ico").attr({src:"https://apip.weatherdt.com/20200701/icon/c/"+w_weather_code+"d.png"})
+	$("#w_weather_img").attr({src:"https://apip.weatherdt.com/20200701/bg/h5/"+w_weather_code+"d.png"});
 }

@@ -7,17 +7,17 @@ import java.util.logging.LogRecord
 
 class LogManager(private val center: DataCenter) {
     companion object{
-        var get:LogManager? = null;
+        var get:LogManager? = null
     }
     init{
-        get = this;
+        get = this
     }
     /**
      * 查询从开始时间到现在的所有日志
      */
-    fun queryLog(start: Long):List<LogData> = queryLog(start, System.currentTimeMillis());
+    fun queryLog(start: Long):List<LogData> = queryLog(start, System.currentTimeMillis())
 
-    /**
+	/**
      * 查询从开始时间到结束时间的所有日志
      */
     fun queryLog(start: Long,end: Long):List<LogData> = queryLog(start,end) { true }
