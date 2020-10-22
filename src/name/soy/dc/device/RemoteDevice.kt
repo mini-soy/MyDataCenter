@@ -3,7 +3,7 @@ package name.soy.dc.device
 import name.soy.dc.client.Client
 import name.soy.dc.device.aida.AIDASession
 import name.soy.dc.device.aida.DeviceData
-import name.soy.dc.packets.RegDevice
+import name.soy.dc.protocol.packets.RegDevice
 import name.soy.dc.tasks.exe.Command
 import name.soy.dc.tasks.exe.Executable
 import java.util.function.Consumer
@@ -20,7 +20,7 @@ class RemoteDevice(val regpacket: RegDevice,val client: Client):Runnable,IDevice
 
 	override fun run(){
 		deviceName = client.name
-		deviceType = DeviceType.valueOf(regpacket.deviceType!!)
+		deviceType = DeviceType.valueOf(regpacket.deviceType)
 		data = DeviceData(this)
 		aidaSession = AIDASession(deviceName, regpacket.aidaPort,data)
 	}

@@ -1,6 +1,5 @@
 package name.soy.dc.device
 
-import lombok.Getter
 import name.soy.dc.DataCenter
 import name.soy.dc.annotation.Manager
 import java.net.ServerSocket
@@ -16,10 +15,9 @@ class DeviceManager(center: DataCenter) {
 	/**
 	 * 所有设备，包括本地设备
 	 */
-	@Getter
 	var devices = Vector<IDevice>()
 	internal val center: DataCenter
-	fun getDevice(device: String): IDevice? {
+	operator fun get(device: String): IDevice? {
 		for (d in devices) if (d.getDeviceName() == device) return d
 		return null
 	}

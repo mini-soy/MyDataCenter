@@ -20,12 +20,10 @@ class LocalDevice(val manager: DeviceManager) : IDevice {
 		TODO("Not yet implemented")
 	}
 
-	override fun getDeviceName(): String {
-		return try {
-			Inet4Address.getLocalHost().hostName
-		} catch (e: UnknownHostException) {
-			"未知"
-		}
+	override fun getDeviceName(): String = try {
+		Inet4Address.getLocalHost().hostName
+	} catch (e: UnknownHostException) {
+		"未知"
 	}
 
 	override fun getDeviceType(): DeviceType {

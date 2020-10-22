@@ -12,12 +12,13 @@ import kotlin.collections.HashMap
  * @author soy
  */
 interface Executable {
-    fun needParameters(): () -> HashMap<String,Aligns<*>>
+    fun needParameters(): () -> HashMap<String, Aligns<*>>
 
     fun execute(): ExecuteProgress
 
     fun getName(): String
-	fun returnParameters(): HashMap<String, Class<*>>
+
+    fun returnParameters(): () -> HashMap<String, Class<*>>
 
     open abstract class ExecuteProgress(open val exe: Executable) {
         //进度
@@ -67,8 +68,9 @@ interface Executable {
         //设置数据
         fun setData(s: String, o: Any) {
             dataset[s] = o
-            if (canRun())
+            if (canRun()) {
                 stat = ProgressStat.READY
+            }
         }
 
         fun setData(data: HashMap<String, Any>) {
@@ -77,7 +79,6 @@ interface Executable {
                 stat = ProgressStat.READY
         }
 
-        protected val resData: HashMap<String, Any> = HashMap()
         //进程是异步的，所以需要线程去守护
         var monitor: Thread? = null
 
@@ -92,13 +93,15 @@ interface Executable {
          */
         var resCode = Integer.MIN_VALUE
 
+        val result: HashMap<String, Any> = HashMap()
+
         fun postRun() = (stat == ProgressStat.READY).also {
-	        monitor = Thread({
-		        stat = ProgressStat.RUNNING
-		        resCode = run()
-		        stat = ProgressStat.FINISH
-		        resultCallback.forEach { it.accept(this) }
-	        },"exe:$uid").apply(Thread::start)
+            monitor = Thread({
+                stat = ProgressStat.RUNNING
+                resCode = run()
+                stat = ProgressStat.FINISH
+                resultCallback.forEach { it.accept(this) }
+            }, "exe:$uid").apply(Thread::start)
         }
 
         fun canRun(): Boolean {
@@ -108,7 +111,7 @@ interface Executable {
                 if (!dataset.containsKey(it.key) && it.value.isNeeded) {
                     return@canRun false
                 } else {
-	                if(it.value.isList)
+                    if (it.value.isList)
                         flag = dataset[it.key] is List<*>
                     else when (it.value.typename) {
                         "int" -> flag = dataset[it.key] is Int
@@ -118,12 +121,13 @@ interface Executable {
                         "string" -> flag = dataset[it.key] is String
                     }
                     if (!flag) {
-                        return@canRun false
+                        return false
                     }
                 }
             }
             return true
         }
+
 
         protected abstract fun run(): Int
     }

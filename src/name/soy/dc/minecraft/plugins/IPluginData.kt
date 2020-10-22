@@ -1,24 +1,25 @@
 package name.soy.dc.minecraft.plugins
 
-import name.soy.dc.minecraft.ServerType
+import name.soy.dc.protocol.data.minecraft.ServerType
+
 
 interface IPluginData {
 	/**
 	 *
 	 * @return 插件名称(也可以是服务端mod)
 	 */
-	fun name(): String?
+	fun name(): String
 
 	/**
 	 * 兼容的服务端列表
 	 */
-	fun compatibly(): List<ServerType?>?
+	fun compatibly(): List<ServerType>
 
 	/**
 	 * 插件描述
 	 * @return
 	 */
-	fun dis(): String?
+	fun dis(): String
 
 	/**
 	 * 插件的ci地址，有ci地址就可以自动更新插件

@@ -6,7 +6,7 @@ import name.soy.dc.tasks.exe.RemoteExecutable
 
 class SpigotCompile: RemoteExecutable() {
     override fun remoteParameters(): () -> HashMap<String, Aligns<*>> = {
-        HashMap<String,Aligns<*>>().apply{
+        HashMap<String,Aligns<*>>().apply {
 
         }
     }
@@ -21,4 +21,7 @@ class SpigotCompile: RemoteExecutable() {
     }
 
     override fun getName(): String = "spigot compile"
+    override fun returnParameters(): () -> HashMap<String, Class<*>> {
+        TODO("Not yet implemented")
+    }
 }

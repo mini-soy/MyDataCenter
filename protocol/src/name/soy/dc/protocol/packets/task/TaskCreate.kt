@@ -1,7 +1,6 @@
-package name.soy.dc.packets.task
+package name.soy.dc.protocol.packets.task
 
-import io.netty.buffer.ByteBuf
-import name.soy.dc.packets.Packet
+import name.soy.dc.protocol.packets.Packet
 import java.util.*
 import kotlin.collections.HashMap
 
@@ -10,7 +9,7 @@ class TaskCreate:Packet {
     var dataset:HashMap<String,Any> = HashMap()
     //任务id
     var taskID:UUID = UUID.randomUUID()
-    //
+    //任务名称(判定)
     var taskType:String = ""
 
     constructor()

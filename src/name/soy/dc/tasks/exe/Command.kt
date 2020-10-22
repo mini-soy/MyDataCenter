@@ -14,10 +14,12 @@ class Command : RemoteExecutable() {
         }
     }
     override fun getName() = "run command"
-    override fun returnParameters(): HashMap<String, Class<*>> =  HashMap<String, Class<*>>().apply {
-        this["execute_time"] = Int.javaClass
-        this["exit_code"] = Int.javaClass
-        this["read_data"] = String.javaClass
+    override fun returnParameters(): () -> HashMap<String, Class<*>> = {
+        HashMap<String, Class<*>>().apply {
+            this["execute_time"] = Int.javaClass
+            this["exit_code"] = Int.javaClass
+            this["read_data"] = String.javaClass
+        }
     }
     override fun execute(): RemoteProgress = RemoteProgress(this)
     override fun localExecute(): ExecuteProgress = LocalCommandRun(this)
@@ -25,7 +27,7 @@ class Command : RemoteExecutable() {
 
     class LocalCommandRun(exe: Executable) : ExecuteProgress(exe) {
         override fun run(): Int {
-            var exec:Process;
+            var exec:Process
             try {
                 val cmd = dataset["command"] as String
                 val startTime = System.currentTimeMillis()
@@ -41,9 +43,9 @@ class Command : RemoteExecutable() {
 
             } catch (e: IOException) {
                 e.printStackTrace()
-                return -1;
+                return -1
             }
-            return exec.exitValue();
+            return exec.exitValue()
         }
     }
 }

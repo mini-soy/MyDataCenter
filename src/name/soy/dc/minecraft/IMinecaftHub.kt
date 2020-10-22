@@ -8,6 +8,7 @@ import java.util.*
  *
  */
 interface IMinecaftHub {
-	fun device(): IDevice?
-	fun instances(): HashMap<String?, MinecraftServerInstance?>?
+	fun device(): IDevice
+
+	fun instances(): HashMap<String, MinecraftServerInstance>
 }

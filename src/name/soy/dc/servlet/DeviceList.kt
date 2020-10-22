@@ -15,13 +15,13 @@ import javax.servlet.http.HttpServletResponse
 class DeviceList : HttpServlet() {
 	override fun doGet(req: HttpServletRequest, resp: HttpServletResponse) {
 		resp.contentType = "application/json; charset=utf-8"
-		val devices: List<IDevice> = DataCenter.Companion.center!!.device().getDevices()
+		val devices: List<IDevice> = DataCenter.center!!.device().devices
 		val arr = JsonArray()
 		synchronized(devices) {
-			devices.forEach(Consumer { e: IDevice ->
+			devices.forEach(Consumer {
 				val data = JsonObject()
-				data.addProperty("deviceName", e.getDeviceName())
-				data.addProperty("deviceType", e.getDeviceType().name.toLowerCase())
+				data.addProperty("deviceName", it.getDeviceName())
+				data.addProperty("deviceType", it.getDeviceType().name.toLowerCase())
 				arr.add(data)
 			})
 		}
@@ -35,9 +35,5 @@ class DeviceList : HttpServlet() {
 		} catch (e: IOException) {
 			e.printStackTrace()
 		}
-	}
-
-	companion object {
-		private const val serialVersionUID = 6234863195538216602L
 	}
 }

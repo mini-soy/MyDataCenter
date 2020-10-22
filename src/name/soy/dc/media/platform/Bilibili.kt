@@ -61,7 +61,7 @@ class Bilibili : PlatformInterface {
 	}
 
 	override val income: Double
-		get() = 0
+		get() = 0.0
 
 	override fun fresh(): Boolean {
 		return false

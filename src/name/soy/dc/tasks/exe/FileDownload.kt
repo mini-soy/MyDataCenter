@@ -26,10 +26,12 @@ class FileDownload : RemoteExecutable() {
         }
     }
 
-    override fun returnParameters() = HashMap<String, Class<*>>().apply {
-        this[FILE_SIZE] = Int.javaClass
-        this[FILE_NAME] = String.javaClass
+    override fun returnParameters(): () -> HashMap<String, Class<*>> = {
+        HashMap<String, Class<*>>().apply {
+            this[FILE_SIZE] = Int.javaClass
+            this[FILE_NAME] = String.javaClass
 
+        }
     }
 
     override fun execute() = RemoteProgress(this)
@@ -88,7 +90,7 @@ class FileDownload : RemoteExecutable() {
                 `in`.close()
                 progress = 100
                 progressText = "文件${url.split("/").last()}下载完毕"
-                resData =
+                result =
                 return 0
             } catch (e: IOException) {
                 progressText = "文件下载失败"

@@ -18,7 +18,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>name.soy</groupId>
+            <groupId>name.soy.dc</groupId>
             <artifactId>protocol</artifactId>
             <version>0.1</version>
             <scope>compile</scope>
@@ -33,12 +33,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.21</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jsoup</groupId>

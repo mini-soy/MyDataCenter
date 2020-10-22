@@ -1,108 +1,21 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>数 据 中 心</title>
-
-	<!-- jquery,jquery-cookie,charts,vue依赖 -->
-	<!-- 感谢staticfile.org提供的js公共源 -->
-	<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-	<script src="https://cdn.staticfile.org/echarts/4.5.0/echarts.min.js"></script>
-	<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
-	<link rel="stylesheet" href="./css/head.css"/>
-	<link rel="stylesheet" href="./css/main.css"/>
-	<link rel="stylesheet" href="./css/foot.css"/>
-	<link rel="stylesheet" href="./css/transition.css">
+    <meta charset="UTF-8">
+    <title>数 据 中 心</title>
+    <!-- jquery,jquery-cookie,charts,vue依赖 -->
+    <!-- 感谢staticfile.org提供的js公共源 -->
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="https://cdn.staticfile.org/echarts/4.5.0/echarts.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <link rel="stylesheet" href="./css/head.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/foot.css"/>
+    <link rel="stylesheet" href="./css/transition.css">
 </head>
 
 <body>
-	<!-- 自己使用的库，不在Head里面 -->
-
-	<!-- 验证是否有权限 -->
-	<script src="js/verify.js"></script>
-	<!--
-		AIDA数据映射表
-		@var aidaset
-	-->
-	<script src="js/aida-static.js"></script>
-	<!-- 天气js运算 -->
-	<script src="js/weather.js"></script>
-	<!-- WebSocket通信 -->
-	<script src="js/monitor.js"></script>
-
-
-	<script>
-		var delay;
-	</script>
-
-	<!--天气背景啊-->
-	<img id="w_weather_img" class="top-bg" width="100%" height="50px" />
-
-	<!--顶端的条目-->
-	<div id="top">
-		<ul>
-			<li class="top-entry-inv" v-for="device in devices" @click="select(device['deviceName'])">
-				<div class="top-entry-inv"></div>
-				<img @src="deviceurl(device)"/>
-				{{device['deviceName']}}
-			</li>
-		</ul>
-
-		<!--天气模块-->
-		<div id="weather">
-			<img id="w_weather_ico" width="32px" height="32px"/>
-			<span id="w_weather"></span>
-			<span id="w_temp"></span>
-			<span id="w_city"></span>
-		</div>
-	</div>
-	<script>
-		function select(deviceName){
-			// alert("选择了"+deviceName)
-		}
-		//device的vue
-		var devicesv = {};
-
-		$.ajax({
-			url:"./devices",
-			success:function (data) {
-				devicesv = new Vue({
-					el: '#top',
-					data:{devices: data}
-				});
-				//渲染完毕就可以来做效果
-				devicesv.$nextTick(function(){
-					$("#top li").each(function (index,element) {
-						var d = 600*index;
-						setTimeout(function() {
-							element.className = "top-entry";
-						}, d);
-						delay = delay>d?delay:d;
-					});
-					$("#top>ul div").each(function (index,element) {
-						var d = 600*index;
-						setTimeout(function() {
-							element.className = "top-entry-bg";
-						}, d);
-						// delay = delay>d?delay:d;
-					});
-				});
-			}
-		});
-		devicesv.computed = {
-			deviceurl:function(device) {
-
-			}
-		}
-	</script>
-	<div id="main">
-		你还没有选择设备呢~
-	</div>
-
-	<div id="foot">
-
-	</div>
+    
 </body>
 </html>
-<!-- 感谢你观看源代码~ -->

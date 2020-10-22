@@ -13,8 +13,8 @@ import java.sql.SQLException
 @Manager("sql")
 class SQLSystem(center: DataCenter) {
 	private var conn: Connection? = null
-	private val conn2: Connection? = null
-	fun execute(sql: String?): Boolean {
+	private var conn2: Connection? = null
+	fun execute(sql: String): Boolean {
 		try {
 			return conn!!.createStatement().execute(sql)
 		} catch (throwables: SQLException) {
@@ -23,7 +23,7 @@ class SQLSystem(center: DataCenter) {
 		return false
 	}
 
-	fun query(sql: String?): ResultSet? {
+	fun query(sql: String): ResultSet? {
 		try {
 			return conn!!.createStatement().executeQuery(sql)
 		} catch (throwables: SQLException) {
@@ -47,12 +47,12 @@ class SQLSystem(center: DataCenter) {
 		} catch (e: SQLException) {
 			e.printStackTrace()
 		}
-		//		try {
-//			conn2 = DriverManager.getConnection(String.format(
-//					"jdbc:mysql://%s/%s?autoReconnect=true&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF8",
-//					center.getPrivateData().SQL2Address(),center.getPrivateData().SQL2Database()));
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			conn2 = DriverManager.getConnection(String.format(
+					"jdbc:mysql://%s/%s?autoReconnect=true&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF8",
+					center.privateData.SQL2Address(),center.privateData.SQL2Database()))
+        } catch (e:SQLException) {
+			e.printStackTrace()
+        }
 	}
 }

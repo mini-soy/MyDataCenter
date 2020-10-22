@@ -29,6 +29,11 @@ class JenkinsDownload : RemoteExecutable() {
     override fun localExecute(): Executable.ExecuteProgress = JenkinsProgress(this)
 
     override fun getName(): String = "ci download"
+    override fun returnParameters(): () -> HashMap<String, Class<*>> = {
+        HashMap<String,Class<*>>().apply {
+            
+        }
+    }
 
     class JenkinsProgress(override val exe:JenkinsDownload) : Executable.ExecuteProgress(exe){
         override fun run():Int {
@@ -48,7 +53,7 @@ class JenkinsDownload : RemoteExecutable() {
 
                 }
             }
-
+            return 0
         }
     }
 }

@@ -1,5 +1,6 @@
-package name.soy.dc.packets
+package name.soy.dc.protocol.packets
 
+import name.soy.dc.protocol.PacketChannel
 import java.io.Serializable
 
 interface Packet:Serializable {

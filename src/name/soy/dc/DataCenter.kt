@@ -1,6 +1,5 @@
 package name.soy.dc
 
-import lombok.Getter
 import name.soy.dc.client.ClientManager
 import name.soy.dc.device.DeviceManager
 import name.soy.dc.media.MediaCenter
@@ -39,18 +38,19 @@ class DataCenter private constructor() {
 	private val media: MediaCenter = MediaCenter(this)
 	fun media() = media
 
-	@Getter
+
 	var privateData: IPrivateData = MyPrivateData()
 
 	companion object {
 		val center: DataCenter? = DataCenter()
+
 	}
 
 	init {
 		if(!System.getProperty("os.name").contains("Windows")) {
 			error("请等待大神对其他操作系统进行适配")
-			exitProcess(1);
-		}
+			exitProcess(1)
+        }
 		println("DataCenter启动完成")
 	}
 }

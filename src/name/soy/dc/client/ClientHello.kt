@@ -4,8 +4,8 @@ import io.netty.buffer.ByteBuf
 import io.netty.channel.ChannelHandlerContext
 import io.netty.channel.ChannelInboundHandlerAdapter
 import io.netty.channel.socket.SocketChannel
-import name.soy.dc.packets.Login
-import name.soy.dc.packets.PacketManager
+import name.soy.dc.protocol.packets.Login
+import name.soy.dc.protocol.PacketManager
 
 class ClientHello(val socket: SocketChannel, val manager: ClientManager): ChannelInboundHandlerAdapter() {
 

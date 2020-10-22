@@ -14,18 +14,18 @@ import javax.websocket.server.ServerEndpoint
 @ServerEndpoint("/device-monitor")
 class Monitor {
 	@OnOpen
-	fun onOpen(session: Session?, config: EndpointConfig?) {
+	fun onOpen(session: Session, config: EndpointConfig) {
 		sessions[session] = MonitorSession(session)
 	}
 
 	@OnClose
 	@Throws(IOException::class)
-	fun onClose(session: Session?, reason: CloseReason?) {
+	fun onClose(session: Session, reason: CloseReason?) {
 	}
 
 	@OnMessage
 	@Throws(IOException::class)
-	fun onMessage(message: String?, session: Session) {
+	fun onMessage(message: String, session: Session) {
 		val obj = JsonParser.parseString(message) as JsonObject
 		val msession = sessions[session]
 		if (!msession!!.authed) {
@@ -57,7 +57,7 @@ class Monitor {
 		if (msession.device == null) {
 			if (obj["type"].asString == "set-device") {
 				val dcode = obj["data"].asString
-				val d: IDevice? = DataCenter.center!!.device().getDevice(dcode)
+				val d: IDevice? = DataCenter.center!!.device()[dcode]
 				if (d == null) {
 					try {
 						val sobj = WSMsg.INVALID_DEVICE.get()

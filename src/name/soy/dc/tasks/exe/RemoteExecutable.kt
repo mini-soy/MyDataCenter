@@ -2,9 +2,9 @@ package name.soy.dc.tasks.exe
 
 import name.soy.dc.DataCenter
 import name.soy.dc.client.Client
-import name.soy.dc.packets.task.TaskCreate
-import name.soy.dc.packets.task.TaskResult
-import name.soy.dc.packets.task.TaskStat
+import name.soy.dc.protocol.packets.task.TaskCreate
+import name.soy.dc.protocol.packets.task.TaskResult
+import name.soy.dc.protocol.packets.task.TaskState
 import name.soy.dc.tasks.Aligns
 
 /**
@@ -29,7 +29,7 @@ abstract class RemoteExecutable : Executable {
 
     open class RemoteProgress(override var exe: RemoteExecutable) : Executable.ExecuteProgress(exe) {
         private val lock = Object()
-        private val result:TaskResult? = null
+        private val result_packet:TaskResult? = null
         override fun run(): Int {
             var localexe = true
             var client:Client? = null
@@ -57,7 +57,7 @@ abstract class RemoteExecutable : Executable {
                 synchronized(this) {
                     lock.wait()
                 }
-                resCode = result!!.code
+                resCode = result_packet!!.code
                 return resCode
             }
         }
@@ -68,7 +68,7 @@ abstract class RemoteExecutable : Executable {
 
             }
         }
-        operator fun plus(stat: TaskStat){
+        operator fun plus(stat: TaskState){
 
         }
     }

@@ -1,4 +1,4 @@
-package name.soy.dc.packets
+package name.soy.dc.protocol
 
 enum class PacketChannel(val parent: PacketChannel?) {
 	UNIVERSE(null),

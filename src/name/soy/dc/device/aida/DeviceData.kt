@@ -17,7 +17,7 @@ class DeviceData(device: IDevice) {
         //AIDA存储
         var aidaset = HashMap<String, AIDAEntry<*>>()
 
-        private fun addaida(s: AIDAEntrySimple, data: Any?) {
+        private  fun addaida(s: AIDAEntrySimple, data: Any?) {
             aidaset["Simple${aidaset.size + 1}"] = AIDAEntry(s, data)
         }
         /**
@@ -90,7 +90,7 @@ class DeviceData(device: IDevice) {
     /**
      * 磁盘名称列表
      */
-    var disknames = LinkedList<String>()
+    var disknames = ArrayList<String>()
 
     /**
      * 设备
@@ -117,7 +117,7 @@ class DeviceData(device: IDevice) {
     }
 
     fun pushAIDA(value: HashMap<String, String>) {
-        value.forEach{aidaset[it.key]?.let{it1 -> aidaData[it1] = it.value}}
+        value.forEach{ val let = aidaset[it.key]?.let { it1 -> aidaData[it1] = it.value } }
         inflate()
     }
 
@@ -162,7 +162,7 @@ class DeviceData(device: IDevice) {
 
     private fun initNIC(){
         device.sendCmd("ipconfig /all") {
-            val lines: ArrayList<String> = ArrayList(it.readData.split("\n"))
+            val lines: ArrayList<String> = ArrayList((it.result["data"]as String).split("\n"))
             //移除头信息
             for (i in 0..8)
                 lines.removeAt(0)
@@ -211,7 +211,7 @@ class DeviceData(device: IDevice) {
     }
     fun initdisk(){
         device.sendCmd("wmic diskdrive get caption") {
-            val array:LinkedList<String> = LinkedList(it.readData.split("\n"))
+            val array: ArrayList<String> = ArrayList((it.result["data"] as String).split("\n"))
             for (i in array.indices)
                 array[i] = array[i].trim()
             array.removeIf{obj->obj.isEmpty()}

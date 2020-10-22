@@ -39,9 +39,9 @@ class LogManager(private val center: DataCenter) {
     fun log(entry: LogEntry,level: Level,msg:String) = log(entry,LogRecord(level,msg))
 
     fun log(entry: LogEntry, rec: LogRecord)=
-        Thread(Runnable {
-            center.sql().execute("Insert Into log values(from_unixtime(${rec.millis/1000}),'${entry.name}','${rec.level.name}','${rec.message}')")
-        }).start()
+        Thread {
+            center.sql().execute("Insert Into log values(from_unixtime(${rec.millis / 1000}),'${entry.name}','${rec.level.name}','${rec.message}')")
+        }.start()
     data class LogData(val entry:LogEntry,val time:Long,val level: Level,val msg: String)
 }
 

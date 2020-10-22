@@ -1,13 +1,11 @@
-package name.soy.dc.packets
-
-import io.netty.buffer.ByteBuf
+package name.soy.dc.protocol.packets
 
 class RegDevice : Packet {
-    var deviceType: String? = null
+    var deviceType: String = ""
     var aidaPort: Int = 0
 
     constructor()
-    constructor(deviceType: String?, aidaPort: Int) {
+    constructor(deviceType: String, aidaPort: Int) {
         this.deviceType = deviceType
         this.aidaPort = aidaPort
     }

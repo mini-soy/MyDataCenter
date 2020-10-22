@@ -1,4 +1,4 @@
-package name.soy.dc.packets
+package name.soy.dc.protocol.packets
 
 class Login:Packet {
     var name:String = ""
