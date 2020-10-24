@@ -2,7 +2,7 @@ package name.soy.dc.device
 
 import name.soy.dc.client.Client
 import name.soy.dc.device.aida.DeviceData
-import name.soy.dc.tasks.exe.Executable
+import name.soy.dc.task.exe.Executable
 import java.util.function.Consumer
 
 interface IDevice {

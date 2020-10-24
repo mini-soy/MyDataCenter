@@ -24,6 +24,12 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>name.soy.dc</groupId>
+            <artifactId>task</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.1.52.Final</version>

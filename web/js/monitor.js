@@ -11,6 +11,8 @@ function init(){
 
                 break;
             case "":
+
+                break;
         }
     }
 

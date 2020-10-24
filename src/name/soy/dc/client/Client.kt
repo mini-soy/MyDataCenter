@@ -5,6 +5,7 @@ import java.lang.Exception
 import io.netty.channel.ChannelHandlerContext
 import io.netty.buffer.ByteBuf
 import name.soy.dc.device.IDevice
+import name.soy.dc.protocol.IClientHandler
 import name.soy.dc.protocol.packets.Packet
 import name.soy.dc.protocol.PacketManager
 import name.soy.dc.protocol.packets.RegDevice
@@ -17,7 +18,7 @@ import name.soy.dc.protocol.packets.task.TaskState
 /**
  * 一个客户端实例
  */
-open class Client(override val name:String, private val manager: ClientManager) : ChannelInboundHandlerAdapter(), IClient, name.soy.dc.protocol.packets.IClientHandler {
+open class Client(override val name:String, private val manager: ClientManager) : ChannelInboundHandlerAdapter(), IClient, IClientHandler {
 	/**
 	 * 收到数据
 	 * @param ctx

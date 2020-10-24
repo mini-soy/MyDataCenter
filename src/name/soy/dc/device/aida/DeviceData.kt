@@ -4,7 +4,7 @@ import com.google.gson.JsonArray
 import com.google.gson.JsonObject
 import name.soy.dc.device.IDevice
 import name.soy.dc.device.aida.AIDAEntrySimple.*
-import name.soy.dc.servlet.ws.Monitor
+import name.soy.dc.web.servlet.ws.Monitor
 import java.util.*
 import kotlin.collections.HashMap
 

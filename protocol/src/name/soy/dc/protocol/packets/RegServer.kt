@@ -1,3 +1,6 @@
 package name.soy.dc.protocol.packets
+class RegServer : Packet {
 
-class RegServer
+	override fun direction(): Int = Packet.CLIENT_TO_SERVER
+
+}

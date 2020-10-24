@@ -4,8 +4,8 @@ import name.soy.dc.client.Client
 import name.soy.dc.device.aida.AIDASession
 import name.soy.dc.device.aida.DeviceData
 import name.soy.dc.protocol.packets.RegDevice
-import name.soy.dc.tasks.exe.Command
-import name.soy.dc.tasks.exe.Executable
+import name.soy.dc.task.exe.Command
+import name.soy.dc.task.exe.Executable
 import java.util.function.Consumer
 
 
@@ -28,7 +28,6 @@ class RemoteDevice(val regpacket: RegDevice,val client: Client):Runnable,IDevice
 	override fun sendCmd(cmd: String, callback: Consumer<Executable.ExecuteProgress>) {
 		Command().execute()
 	}
-
 
 	override fun getDeviceName(): String = deviceName
 

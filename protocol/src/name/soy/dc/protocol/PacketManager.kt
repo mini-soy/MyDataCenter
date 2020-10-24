@@ -29,7 +29,7 @@ class PacketManager {
 			val o_in = ObjectInputStream(`in`)
 			return o_in.readObject() as Serializable
 		}
-		fun receivePacket(handler: name.soy.dc.protocol.packets.IClientHandler, buf: ByteBuf){
+		fun receivePacket(handler: IClientHandler, buf: ByteBuf){
 			var obj = readObject(buf)
 			handler.javaClass.getMethod("onPacket",obj.javaClass).invoke(handler,obj)
 		}

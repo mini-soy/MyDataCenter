@@ -23,6 +23,7 @@ class DataCenter private constructor() {
 	/**
 	 * 设备管理
 	 */
+
 	private val device: DeviceManager = DeviceManager(this)
 	fun device() = device
 
@@ -42,8 +43,11 @@ class DataCenter private constructor() {
 	var privateData: IPrivateData = MyPrivateData()
 
 	companion object {
-		val center: DataCenter? = DataCenter()
+		operator fun invoke(): DataCenter {
+			return center
+		}
 
+		private val center: DataCenter = DataCenter()
 	}
 
 	init {

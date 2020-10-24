@@ -4,7 +4,7 @@ import javafx.util.Callback
 import name.soy.dc.client.Client
 import name.soy.dc.device.aida.AIDASession
 import name.soy.dc.device.aida.DeviceData
-import name.soy.dc.tasks.exe.Executable
+import name.soy.dc.task.exe.Executable
 import java.io.IOException
 import java.io.InputStreamReader
 import java.io.Reader

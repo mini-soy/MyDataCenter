@@ -13,69 +13,102 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="WDNMD">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__name_soy_dc_minecraft_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/Creator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegServer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/device.html" afterDir="false" />
+    <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="EMMM">
+      <change afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteHandle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/SpigotCompileAligner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/Aligner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/web/WebManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/AlignForm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/AlignInteractive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/RemoteHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_52_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__name_soy_dc_minecraft_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/centerclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/target/classes/name/soy/dc/client/CenterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/centerclient/target/classes/name/soy/dc/client/CenterClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/Creator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/Creator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centerclient/target/classes/name/soy/dc/client/CenterClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/IClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/IClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/Packet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/Packet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/PacketChannel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketChannel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/PacketManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/RegDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/RegServer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/minecraft/ServerData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/minecraft/ServerInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/minecraft/ServerLog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/task/TaskCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/task/TaskResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/packets/task/TaskStat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/IClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/IClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegServer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegServer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/client/Client.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/ClientBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/client/ClientBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/ClientHello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/client/ClientHello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/code/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/code/JenkinsDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/ClientBase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/code/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/IDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/IDevice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDAEntry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDAEntry.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDASession.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDAType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/AIDAType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/log/LogManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/log/LogManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/media/platform/Bilibili.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/media/platform/Bilibili.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/IMinecaftHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/IMinecaftHub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/IMinecaftHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/IMinecraftHub.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftServerInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftServerInstance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/ServerType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/data/minecraft/ServerType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/VersionManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/VersionManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/compile/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/compile/SpigotCompile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/compile/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/IPluginData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/IPluginData.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/PluginManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/PluginManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/sql/SQLSystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/sql/SQLSystem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Command.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/FileDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteExecutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteExecutable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/MenuList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/DeviceList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Initialize.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Log.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Log.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Verify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Verify.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/ws/Monitor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/ws/MonitorSession.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/Aligns.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/TaskManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Executable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/ExecuteProgressCallback.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/ProgressStat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/ProgressStat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteExecutable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/aida-static.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/aida-static.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/monitor.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,16 +122,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Kotlin Script" />
         <option value="Kotlin Enum" />
         <option value="CSS File" />
         <option value="AnnotationType" />
         <option value="Kotlin File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -113,6 +147,9 @@
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="产品" />
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -172,37 +209,41 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30232558" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="name.soy.dc.task.exe.minecraft" />
+      <recent name="name.soy.dc.task" />
+      <recent name="name.soy.dc.task.exe" />
+      <recent name="name.soy.dc.protocol.data.minecraft" />
+      <recent name="name.soy.dc.protocol" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="name.soy.dc.web" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="name.soy.dc.client.minecraft" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\DataCenter\src\name\soy\dc\tasks\exe" />
+      <recent name="Z:\DataCenter\web" />
+      <recent name="Z:\DataCenter\src\name\soy\dc\packets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="name.soy.dc.packets.device" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="name.soy.dc.minecraft" />
       <recent name="name.soy.dc.client" />
       <recent name="name.soy.dc" />
       <recent name="name.soy.dc.tasks" />
       <recent name="name.soy.dc.annotation" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="name.soy.dc.protocol.data.minecraft" />
-      <recent name="name.soy.dc.protocol" />
-      <recent name="name.soy.dc.device" />
-      <recent name="name.soy.dc.utils" />
-    </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="name.soy.dc.client.minecraft" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="name.soy.dc.packets.device" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\DataCenter\src\name\soy\dc\tasks\exe" />
-      <recent name="Z:\DataCenter\web" />
-      <recent name="Z:\DataCenter\src\name\soy\dc\packets" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -221,13 +262,24 @@
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.37">
     <configuration name="CenterClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="name.soy.dc.client.CenterClient" />
-      <module name="centerclient" />
+      <module name="client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="name.soy.dc.client.packet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,6 +449,12 @@
       <workItem from="1603102966874" duration="8211000" />
       <workItem from="1603197235823" duration="1884000" />
       <workItem from="1603269840992" duration="9764000" />
+      <workItem from="1603434314855" duration="11000" />
+      <workItem from="1603434365859" duration="13419000" />
+      <workItem from="1603468341501" duration="315000" />
+      <workItem from="1603468665906" duration="11000" />
+      <workItem from="1603468822259" duration="1719000" />
+      <workItem from="1603471118837" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="WDNMD">
       <created>1600684447361</created>
@@ -440,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602931740898</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="EMMM">
+      <created>1603382501744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603382501744</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +561,8 @@
     <MESSAGE value="添加xmind" />
     <MESSAGE value="weather.js" />
     <MESSAGE value="kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin" />
+    <MESSAGE value="EMMM" />
+    <option name="LAST_COMMIT_MESSAGE" value="EMMM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="829" y="442" key="#Chrome_设置" timestamp="1600780647226">
@@ -541,17 +607,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="833" y="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602859951323" />
-    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600437516105">
+    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1603428489125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600437516105" />
-    <state x="544" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1603297972498">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603428489125" />
+    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser" timestamp="1603475028289">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603297972498" />
+    <state x="544" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603382909827" />
     <state x="574" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1600313705839" />
     <state x="637" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1602642929100" />
-    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602932526671" />
+    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603475028289" />
     <state x="619" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1600080323446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -560,41 +626,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="230" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601130801517" />
-    <state x="576" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603380282948">
+    <state x="576" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603473381729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="410" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1601906988999" />
     <state x="432" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1600312562788" />
-    <state x="576" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603380282948" />
+    <state x="576" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603473381729" />
     <state x="730" y="386" width="459" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602179754500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="386" width="459" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1602179754500" />
-    <state x="677" y="73" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600247758773">
+    <state x="137" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603475003865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="73" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600247758773" />
+    <state x="137" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603475003865" />
     <state x="427" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603382361503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="427" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603382361503" />
     <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600236468638" />
     <state x="600" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602865048449" />
-    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603380389364">
+    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603439042643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="499" y="204" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600235840194" />
-    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603380389364" />
+    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603439042643" />
     <state x="726" y="52" key="#自动导入" timestamp="1600590236943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="52" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1600590236943" />
-    <state x="207" y="66" width="1231" height="852" key="#项目结构" timestamp="1603110753802">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="440" y="94" width="1231" height="852" key="#项目结构" timestamp="1603474361006">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="207" y="66" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1603110753802" />
     <state x="330" y="8" key="#项目结构/0.0.1440.860@0.0.1440.860" timestamp="1600304361070" />
-    <state x="440" y="94" width="1231" height="852" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1601130816867" />
+    <state x="440" y="94" width="1231" height="852" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1603474361006" />
     <state x="470" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603292176348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -738,39 +804,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="793" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600684648962" />
-    <state x="292" y="85" width="1342" height="883" key="SettingsEditor" timestamp="1602929660665">
+    <state x="478" y="149" width="1141" height="728" key="SettingsEditor" timestamp="1603518672129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="437" y="20" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602256191165" />
+    <state x="225" y="0" width="1141" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603382580696" />
     <state x="257" y="80" width="1140" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600304305535" />
     <state x="443" y="103" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602732739784" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1600082244257" />
-    <state x="292" y="85" width="1342" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602929660665" />
+    <state x="478" y="149" width="1342" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603518672129" />
     <state x="614" y="240" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602597969591" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1601193166361">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="263" y="67" key="Vcs.Push.Dialog.v2" timestamp="1603382504649">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="263" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603382504649" />
     <state x="277" y="212" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1600308914862" />
     <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193166361" />
-    <state x="310" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600237091482">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="413" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603437952835">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="310" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860@0.0.1440.860" timestamp="1600237091482" />
+    <state x="413" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603437952835" />
     <state x="660" y="118" width="599" height="804" key="find.popup" timestamp="1601375619976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="495" y="98" width="567" height="665" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1600309104915" />
     <state x="660" y="118" width="599" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601375619976" />
-    <state x="551" y="92" key="new project wizard" timestamp="1600585279127">
+    <state x="551" y="92" key="new project wizard" timestamp="1603435033622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="413" y="4" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1600312335292" />
-    <state x="551" y="92" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600585279127" />
-    <state x="626" y="221" width="628" height="325" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602929399454">
+    <state x="551" y="92" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603435033622" />
+    <state x="626" y="221" width="738" height="338" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603472881234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="183" width="628" height="325" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1602256190043" />
-    <state x="626" y="221" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602929399454" />
+    <state x="626" y="221" width="738" height="338" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603472881234" />
     <state x="874" y="272" width="628" height="482" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602253925255" />
     <state x="483" y="106" width="663" height="460" key="refactoring.ChangeSignatureDialog" timestamp="1602931850083">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -791,20 +859,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="310" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1600080551328" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../Tomcat 9.0/lib/websocket-api.jar!/javax/websocket/OnMessage.class</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Lock.java</url>
-          <line>166</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

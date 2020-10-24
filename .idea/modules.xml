@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataCenter.iml" filepath="$PROJECT_DIR$/DataCenter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/centerclient/centerclient.iml" filepath="$PROJECT_DIR$/centerclient/centerclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/protocol/protocol.iml" filepath="$PROJECT_DIR$/protocol/protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
     </modules>
   </component>
 </project>

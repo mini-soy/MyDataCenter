@@ -37,5 +37,11 @@ interface IPluginData {
 	 * 是否开源
 	 * @return
 	 */
-	val isOpenSource: Boolean
+	val openSource: Boolean
+
+	/**
+	 * 依赖的插件列表
+	 */
+	val depends:List<IPluginData>
+
 }

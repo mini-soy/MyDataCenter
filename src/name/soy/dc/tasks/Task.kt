@@ -1,6 +1,5 @@
 package name.soy.dc.tasks
-
-import name.soy.dc.tasks.exe.Executable
+import name.soy.dc.task.exe.Executable
 import java.util.*
 
 class Task {
