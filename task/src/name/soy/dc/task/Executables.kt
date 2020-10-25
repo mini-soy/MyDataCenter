@@ -12,6 +12,7 @@ enum class Executables(val exe: Executable) {
 	init {
 		Executables.exemap[exe.getName()] = exe
 	}
+	operator fun invoke() = exe
 	companion object{
 		val exemap = HashMap<String,Executable>()
 	}

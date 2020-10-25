@@ -15,9 +15,7 @@ class FabricCompile: RemoteExecutable() {
 		TODO("Not yet implemented")
 	}
 
-	override fun getName(): String {
-		TODO("Not yet implemented")
-	}
+	override fun getName(): String = "fabric compile"
 
 	override fun returnParameters(): () -> HashMap<String, Class<*>> {
 		TODO("Not yet implemented")

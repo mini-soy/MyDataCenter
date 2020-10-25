@@ -161,7 +161,7 @@ class DeviceData(device: IDevice) {
     }
 
     private fun initNIC(){
-        device.sendCmd("ipconfig /all") {
+        device.sendCmd( "ipconfig /all") {
             val lines: ArrayList<String> = ArrayList((it.result["data"]as String).split("\n"))
             //移除头信息
             for (i in 0..8)

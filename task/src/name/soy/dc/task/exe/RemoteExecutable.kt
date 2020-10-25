@@ -23,6 +23,6 @@ abstract class RemoteExecutable : Executable {
 	final override fun execute(): RemoteProgress = RemoteHandler(this)
 
 	abstract fun localExecute(): Executable.ExecuteProgress
-
+	
 	abstract class RemoteProgress(override var exe: RemoteExecutable) : Executable.ExecuteProgress(exe)
 }

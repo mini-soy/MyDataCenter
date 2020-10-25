@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd3de81d-6e33-4009-9306-8e591cd2a26e" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/AlignInteractive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/RemoteHandle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/utils/AlignInteractiveData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/RemoteHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__name_soy_dc_minecraft_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataCenter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/minecraft/Creator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/Creator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centerclient/target/classes/name/soy/dc/client/CenterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../centerclient/target/classes/name/soy/dc/client/CenterClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/PacketManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/PacketManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/IClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/IClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegServer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegServer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/DataCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/DataCenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/client/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/client/ClientBase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/code/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/IDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/IDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/LocalDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/LocalDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/RemoteDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/RemoteDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/IMinecaftHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/IMinecraftHub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftServerInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftServerInstance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/compile/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/IPluginData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/IPluginData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/PluginManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/PluginManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/AlignForm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/DeviceList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/DeviceList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Initialize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Initialize.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Verify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Verify.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/ws/Monitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/ws/Monitor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Aligns.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/Task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/TaskManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/TaskManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/Executable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Executable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/ExecuteProgressCallback.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/ProgressStat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/ProgressStat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/RemoteExecutable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/monitor.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1irsiLmcnOS5GsPnSvWiPaRpL2x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd3de81d-6e33-4009-9306-8e591cd2a26e" name="默认的" comment="" />
+      <created>1602677170844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602677170844</updated>
+      <workItem from="1602677173769" duration="22000" />
+      <workItem from="1603470873033" duration="85000" />
+      <workItem from="1603471100596" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1603471114679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603471114679" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1603470908637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603470908637" />
+  </component>
+</project>

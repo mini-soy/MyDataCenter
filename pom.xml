@@ -8,8 +8,10 @@
     <artifactId>DataCenter</artifactId>
     <packaging>pom</packaging>
     <version>0.1</version>
+
     <modules>
         <module>protocol</module>
+        <module>task</module>
     </modules>
 
     <properties>
@@ -21,13 +23,11 @@
             <groupId>name.soy.dc</groupId>
             <artifactId>protocol</artifactId>
             <version>0.1</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>name.soy.dc</groupId>
             <artifactId>task</artifactId>
             <version>0.1</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>

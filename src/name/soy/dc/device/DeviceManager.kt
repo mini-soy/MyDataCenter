@@ -7,6 +7,9 @@ import java.util.*
 
 @Manager("device")
 class DeviceManager(center: DataCenter) {
+	
+	operator fun not():DataCenter = center
+	
 	private val local: LocalDevice = LocalDevice(this)
 	fun local(): LocalDevice {
 		return local

@@ -38,7 +38,6 @@ open class Client(override val name:String, private val manager: ClientManager) 
 		return false
 	}
 
-
 	override fun isLocal()= false
 
 	override fun sendPacket(packet: Packet) {}
@@ -50,8 +49,7 @@ open class Client(override val name:String, private val manager: ClientManager) 
 	override fun onPacket(packet: TaskState) {}
 
 	override fun onPacket(packet: TaskResult) {}
-
-
+	
 	override fun onPacket(packet: ServerInfo) {}
 
 	override fun onPacket(packet: ServerLog) {}

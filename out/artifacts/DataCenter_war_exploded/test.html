@@ -1,35 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
-    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/aida-static.js"></script>
+    <script>
+        console.log(JSON.stringify(aidaset))
+    </script>
 </head>
 <body>
-<div id="app">
-    <ul>
-        <template v-for="site in sites">
-            <li>{{ site.name }}</li>
-            <li>--------------</li>
-        </template>
-    </ul>
-</div>
 
-<script>
-    setTimeout(function () {
-
-
-        new Vue({
-            el: '#app',
-            data: {
-                sites: [
-                    {name: 'Runoob'},
-                    {name: 'Google'},
-                    {name: 'Taobao'}
-                ]
-            }
-        })
-    },10000)
-</script>
 </body>
 </html>

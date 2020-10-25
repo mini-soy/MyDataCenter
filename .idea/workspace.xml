@@ -9,37 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="EMMM">
-      <change afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteHandle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/SpigotCompileAligner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/Aligner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/web/WebManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/AlignForm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/AlignInteractive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/RemoteHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/FileCache.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_52_Final.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__name_soy_dc_minecraft_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" afterDir="false" />
@@ -49,66 +40,55 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/Creator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/Creator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerclient/target/classes/name/soy/dc/client/CenterClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/IPrivateData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/IPrivateData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/annotation/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/annotation/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/IDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/IDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/sql/SQLSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/sql/SQLSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/aida-static.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/aida-static.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/monitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protocol/protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/IClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/IClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegServer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/RegServer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/DataCenter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/client/Client.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/ClientBase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/code/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/IDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/IDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/RemoteDevice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/IMinecaftHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/IMinecraftHub.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftServerInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftServerInstance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/compile/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/IPluginData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/IPluginData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/PluginManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/PluginManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/MenuList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/DeviceList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/DeviceList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Initialize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Initialize.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Log.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Log.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/Verify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Verify.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/Monitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/ws/Monitor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/servlet/ws/MonitorSession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/ws/MonitorSession.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/Aligns.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/Task.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/TaskManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Executable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/ExecuteProgressCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/ProgressStat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/ProgressStat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteExecutable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/media/platform/Bilibili.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/media/platform/Bilibili.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/MenuList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/MenuList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Verify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Verify.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/ExecuteProgressCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/RemoteExecutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task/task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/device.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/device.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/aida-static.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/aida-static.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/monitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +120,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,6 +137,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="JupyterTrust" id="b3159c51-e7a0-42d7-aac4-88fb88024188" />
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -213,7 +194,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30232558" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -363,8 +344,13 @@
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
       <item itemvalue="应用程序.CenterClient" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.CenterClient" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -455,6 +441,9 @@
       <workItem from="1603468665906" duration="11000" />
       <workItem from="1603468822259" duration="1719000" />
       <workItem from="1603471118837" duration="37000" />
+      <workItem from="1603609351994" duration="304000" />
+      <workItem from="1603609697979" duration="968000" />
+      <workItem from="1603624139929" duration="10081000" />
     </task>
     <task id="LOCAL-00001" summary="WDNMD">
       <created>1600684447361</created>
@@ -505,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603382501744</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="EMMM">
+      <created>1603519001376</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603519001376</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -527,7 +523,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -573,10 +581,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="904" y="467" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1600082729552" />
-    <state x="738" y="113" key="#Kotlin" timestamp="1602762117621">
+    <state x="759" y="0" key="#HTML" timestamp="1603636360775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="113" key="#Kotlin/0.0.1920.1040@0.0.1920.1040" timestamp="1602762117621" />
+    <state x="759" y="0" key="#HTML/0.0.1920.1040@0.0.1920.1040" timestamp="1603636360775" />
+    <state x="738" y="113" key="#Kotlin" timestamp="1603519343061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="113" key="#Kotlin/0.0.1920.1040@0.0.1920.1040" timestamp="1603519343061" />
     <state x="842" y="381" key="#Notifications" timestamp="1600085376429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -607,9 +619,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="833" y="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602859951323" />
-    <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1603428489125">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="438" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1603609660953">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="438" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/1366.-138.1600.860@0.0.1366.728" timestamp="1603609660953" />
     <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603428489125" />
     <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser" timestamp="1603475028289">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -671,9 +684,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600684809950" />
-    <state x="201" y="225" key="FileChooserDialogImpl" timestamp="1603110752172">
+    <state x="201" y="209" key="FileChooserDialogImpl" timestamp="1603609658453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="201" y="209" key="FileChooserDialogImpl/0.0.1366.728/1366.-138.1600.860@0.0.1366.728" timestamp="1603609658453" />
     <state x="201" y="225" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603110752172" />
     <state x="212" y="266" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600306167927" />
     <state x="282" y="322" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602929384292" />
@@ -682,70 +696,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600080538896" />
-    <state width="795" height="480" key="GridCell.Tab.0.bottom" timestamp="1601451819403">
+    <state width="729" height="329" key="GridCell.Tab.0.bottom" timestamp="1603522346271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="795" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601451819403" />
-    <state width="795" height="480" key="GridCell.Tab.0.center" timestamp="1601451819403">
+    <state width="729" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346271" />
+    <state width="729" height="329" key="GridCell.Tab.0.center" timestamp="1603522346270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="795" height="480" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601451819403" />
-    <state width="795" height="480" key="GridCell.Tab.0.left" timestamp="1601451819403">
+    <state width="729" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346270" />
+    <state width="729" height="329" key="GridCell.Tab.0.left" timestamp="1603522346269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="795" height="480" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601451819403" />
-    <state width="795" height="480" key="GridCell.Tab.0.right" timestamp="1601451819403">
+    <state width="729" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346269" />
+    <state width="729" height="329" key="GridCell.Tab.0.right" timestamp="1603522346270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="795" height="480" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601451819403" />
-    <state width="496" height="208" key="GridCell.Tab.1.bottom" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346270" />
+    <state width="729" height="329" key="GridCell.Tab.1.bottom" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.1.center" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.1.center" timestamp="1603522346271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.1.left" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346271" />
+    <state width="729" height="329" key="GridCell.Tab.1.left" timestamp="1603522346271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.1.right" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346271" />
+    <state width="729" height="329" key="GridCell.Tab.1.right" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.2.bottom" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.2.bottom" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.2.center" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.2.center" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.2.left" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.2.left" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.2.right" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.2.right" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.3.bottom" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.3.bottom" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.3.center" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.3.center" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.3.left" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.3.left" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
-    <state width="496" height="208" key="GridCell.Tab.3.right" timestamp="1601392495391">
+    <state width="729" height="329" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
+    <state width="729" height="329" key="GridCell.Tab.3.right" timestamp="1603522346272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="208" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601392495391" />
+    <state width="729" height="329" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603522346272" />
     <state width="795" height="480" key="GridCell.Tab.5.bottom" timestamp="1601451820223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -804,21 +818,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="793" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600684648962" />
-    <state x="478" y="149" width="1141" height="728" key="SettingsEditor" timestamp="1603518672129">
+    <state x="-172" y="105" width="1141" height="728" key="SettingsEditor" timestamp="1603629406831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="225" y="0" width="1141" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603382580696" />
     <state x="257" y="80" width="1140" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600304305535" />
     <state x="443" y="103" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602732739784" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1600082244257" />
-    <state x="478" y="149" width="1342" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603518672129" />
+    <state x="-172" y="105" width="1342" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603629406831" />
     <state x="614" y="240" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602597969591" />
-    <state x="263" y="67" key="Vcs.Push.Dialog.v2" timestamp="1603382504649">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="833" y="167" key="VCS.ChangeListViewerDialog" timestamp="1603636120864">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="833" y="167" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603636120864" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1603638749394">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603382504649" />
     <state x="277" y="212" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1600308914862" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193166361" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603638749394" />
     <state x="413" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603437952835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -3,7 +3,7 @@ function init(){
     socket = new WebSocket("ws://localhost:8080/DataCenter/device-monitor");
     socket.onmessage = function (event) {
         const msg = JSON.parse(event.data);
-        switch (msg['type']) {
+        switch (msg.type) {
             case "":
 
                 break;
@@ -11,6 +11,8 @@ function init(){
 
                 break;
             case "":
+
+                break;
         }
     }
 

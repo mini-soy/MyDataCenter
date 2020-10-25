@@ -1,6 +1,7 @@
 package name.soy.dc.task.exe
 
 import name.soy.dc.task.Aligns
+import name.soy.dc.task.FileCache
 import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileOutputStream
@@ -12,6 +13,7 @@ class FileDownload : RemoteExecutable() {
     companion object {
         const val URL = "url"
         const val PATH = "to_file"
+        const val UID = "download_id"
 
         const val FILE_SIZE = "file_size"
         const val FILE_NAME = "file_name"
@@ -21,6 +23,8 @@ class FileDownload : RemoteExecutable() {
         HashMap<String, Aligns<*>>().apply {
             //目标地址,如:http://mapland.cn/download
             this[URL] = Aligns.createString(HashSet(), null, true,false)
+            //下载概念UID,用于重复下载内容可以直接本地调用
+            this[UID] = Aligns.createString(HashSet(), null, true,false)
             //下载到哪里,如D:\test.exe
             this[PATH] = Aligns.createString(HashSet(), null, true,false)
         }
@@ -43,14 +47,20 @@ class FileDownload : RemoteExecutable() {
         private val MB = 1024L * 1024
         private val GB = 1024L * 1024 * 1024
         private val TB = 1024L * 1024 * 1024 * 1024
+        private val PB = 1024L * 1024 * 1024 * 1024 * 1024
+
+        // TODO: 增加 PB 单位
         private fun sizeToText(size:Long): String = when (size) {
             in 0..20 * KB -> "${String.format("%.2f",size)}B"
             in 20 * KB..MB -> "${String.format("%.2f",size.toDouble() / KB)}KB"
             in MB..GB -> "${String.format("%.2f",size.toDouble() / MB)}MB"
             in GB..TB -> "${String.format("%.2f",size.toDouble() / GB)}GB"
-            else -> "${String.format("%.2f",size.toDouble() / TB)}TB"
+            in TB..PB -> "${String.format("%.2f",size.toDouble() / TB)}TB"
+            else -> "${String.format("%.2f",size.toDouble() / PB)}PB"
         }
+
         override fun run(): Int {
+            FileCache()+this
             try {
                 progressText = "正在请求http(s)数据..."
                 var url = dataset[URL] as String

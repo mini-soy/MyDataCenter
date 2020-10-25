@@ -11,7 +11,10 @@ data class ExecuteProgressCallback(
 			val progress:Int,
 			val text: String,
 			val stat: ProgressStat)
-
+	operator fun unaryPlus():Data = new
+	
+	operator fun unaryMinus():Data = old
+	
 	fun changedProgress(): Boolean = old.progress != new.progress
 
 	fun changedText(): Boolean = old.text != new.text

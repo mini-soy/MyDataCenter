@@ -8,46 +8,46 @@ import java.io.Reader
 
 class Command : RemoteExecutable() {
 
-    override fun remoteParameters(): () -> HashMap<String, Aligns<*>> =  {
-        HashMap<String, Aligns<*>>().apply {
-            this["command"] = Aligns.createString(null,null,true)
-        }
-    }
+	override fun remoteParameters(): () -> HashMap<String, Aligns<*>> =  {
+		HashMap<String, Aligns<*>>().apply {
+			this["command"] = Aligns.createString(null,null,true)
+		}
+	}
 
-    override fun getName() = "run command"
+	override fun getName() = "run command"
 
-    override fun returnParameters(): () -> HashMap<String, Class<*>> = {
-        HashMap<String, Class<*>>().apply {
-            this["execute_time"] = Int::class.java
-            this["read_data"] = String::class.java
-        }
-    }
+	override fun returnParameters(): () -> HashMap<String, Class<*>> = {
+		HashMap<String, Class<*>>().apply {
+			this["execute_time"] = Int::class.java
+			this["read_data"] = String::class.java
+		}
+	}
 
-    override fun localExecute(): ExecuteProgress = LocalCommandRun(this)
+	override fun localExecute(): ExecuteProgress = LocalCommandRun(this)
 
 
-    class LocalCommandRun(exe: Executable) : ExecuteProgress(exe) {
-        override fun run(): Int {
-            var exec:Process
-            try {
-                val cmd = dataset["command"] as String
-                val startTime = System.currentTimeMillis()
-                exec = Runtime.getRuntime().exec(cmd)
-                val `in`: Reader = InputStreamReader(exec.inputStream, "GBK")
-                val sb = StringBuilder()
-                while (true) {
-                    val c:Int = `in`.read()
-                    if (c == -1) break
-                    sb.append(c.toChar())
-                }
-                val endTime = System.currentTimeMillis()
-                result["execute_time"] = endTime-startTime
-                result["read_data"] = sb.toString()
-            } catch (e: IOException) {
-                e.printStackTrace()
-                return -1
-            }
-            return exec.exitValue()
-        }
-    }
+	class LocalCommandRun(exe: Executable) : ExecuteProgress(exe) {
+		override fun run(): Int {
+			var exec:Process
+			try {
+				val cmd = dataset["command"] as String
+				val startTime = System.currentTimeMillis()
+				exec = Runtime.getRuntime().exec(cmd)
+				val `in`: Reader = InputStreamReader(exec.inputStream, "GBK")
+				val sb = StringBuilder()
+				while (true) {
+					val c:Int = `in`.read()
+					if (c == -1) break
+					sb.append(c.toChar())
+				}
+				val endTime = System.currentTimeMillis()
+				result["execute_time"] = endTime-startTime
+				result["read_data"] = sb.toString()
+			} catch (e: IOException) {
+				e.printStackTrace()
+				return -1
+			}
+			return exec.exitValue()
+		}
+	}
 }

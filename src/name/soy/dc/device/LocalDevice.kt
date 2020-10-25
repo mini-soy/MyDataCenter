@@ -19,7 +19,7 @@ class LocalDevice(val manager: DeviceManager) : IDevice {
 	override fun sendCmd(cmd: String, callback: Consumer<Executable.ExecuteProgress>) {
 		TODO("Not yet implemented")
 	}
-
+	
 	override fun getDeviceName(): String = try {
 		Inet4Address.getLocalHost().hostName
 	} catch (e: UnknownHostException) {
@@ -34,7 +34,7 @@ class LocalDevice(val manager: DeviceManager) : IDevice {
 		return data
 	}
 
-	override fun unaryPlus(): Client = manager.center.client[getDeviceName()]
+	override fun unaryPlus(): Client = (!manager).client[getDeviceName()]
 
 
 	init {

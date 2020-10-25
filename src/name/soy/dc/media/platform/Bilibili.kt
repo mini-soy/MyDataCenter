@@ -28,10 +28,9 @@ class Bilibili : PlatformInterface {
 		var danmuku = 0
 	}
 
-	var yestoday: BilibiliData? = null
-	override fun where(): Platform? {
-		return Platform.BILIBILI
-	}
+	lateinit var yestoday: BilibiliData
+	override fun where(): Platform = Platform.BILIBILI
+	
 
 	override fun fansUP(): Int {
 		return 0

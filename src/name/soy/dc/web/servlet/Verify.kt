@@ -14,10 +14,10 @@ class Verify : HttpServlet() {
 		/**
 		 *
 		 * @param req
-		 * switch(@return)
-		 * 0=>sucess
-		 * 1=>failed
-		 * -1=>server failed
+		 * switch(@return)<br/>
+		 * 0->sucess<br/>
+		 * 1->failed<br/>
+		 * -1->server failed<br/>
 		 */
 		fun validcode(req: HttpServletRequest): Int {
 			return 0
