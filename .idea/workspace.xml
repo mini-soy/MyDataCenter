@@ -25,70 +25,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bfce07-ae0f-40bd-933b-89ccadecc6fa" name="默认的" comment="EMMM">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/FileCache.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_52_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_52_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/creator/Creator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/CloudFileCache.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataCenter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/Creator.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/IPrivateData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/IPrivateData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/annotation/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/annotation/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/IDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/IDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initNIC$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$initdisk$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/sql/SQLSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/sql/SQLSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/aida-static.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/aida-static.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/monitor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/js/verify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DataCenter_war_exploded/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/protocol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/client/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/PacketManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/data/minecraft/ServerType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/data/minecraft/ServerType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/DeviceManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/LocalDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/media/platform/Bilibili.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/media/platform/Bilibili.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/MenuList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/MenuList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Verify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/web/servlet/Verify.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/ExecuteProgressCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftServerInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/MinecraftServerInstance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/PluginManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/minecraft/plugins/PluginManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/ScheduleSystem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteHandle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/RemoteHandle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/SpigotCompileAligner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/tasks/exe/SpigotCompileAligner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/soy/dc/utils/Aligner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/soy/dc/utils/Aligner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/FileCache.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/FileCache.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/RemoteExecutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task/task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/device.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/device.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,16 +150,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30232558" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="name.soy.dc.client.minecraft.creator" />
       <recent name="name.soy.dc.task.exe.minecraft" />
       <recent name="name.soy.dc.task" />
       <recent name="name.soy.dc.task.exe" />
       <recent name="name.soy.dc.protocol.data.minecraft" />
-      <recent name="name.soy.dc.protocol" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="name.soy.dc.web" />
@@ -443,7 +399,7 @@
       <workItem from="1603471118837" duration="37000" />
       <workItem from="1603609351994" duration="304000" />
       <workItem from="1603609697979" duration="968000" />
-      <workItem from="1603624139929" duration="10081000" />
+      <workItem from="1603624139929" duration="27273000" />
     </task>
     <task id="LOCAL-00001" summary="WDNMD">
       <created>1600684447361</created>
@@ -501,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603519001376</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="minecraft server管理&#10;v1,URL列表">
+      <created>1603640827999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603640827999</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +533,8 @@
     <MESSAGE value="weather.js" />
     <MESSAGE value="kotlin" />
     <MESSAGE value="EMMM" />
-    <option name="LAST_COMMIT_MESSAGE" value="EMMM" />
+    <MESSAGE value="minecraft server管理&#10;v1,URL列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="minecraft server管理&#10;v1,URL列表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="829" y="442" key="#Chrome_设置" timestamp="1600780647226">
@@ -624,13 +588,13 @@
     </state>
     <state x="438" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/1366.-138.1600.860@0.0.1366.728" timestamp="1603609660953" />
     <state x="615" y="556" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603428489125" />
-    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser" timestamp="1603475028289">
+    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser" timestamp="1603764909692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603382909827" />
+    <state x="544" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603676010569" />
     <state x="574" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1600313705839" />
     <state x="637" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1602642929100" />
-    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603475028289" />
+    <state x="541" y="197" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603764909692" />
     <state x="619" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1600080323446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -659,11 +623,11 @@
     <state x="427" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603382361503" />
     <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600236468638" />
     <state x="600" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602865048449" />
-    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603439042643">
+    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1603643430357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="499" y="204" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1600235840194" />
-    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603439042643" />
+    <state x="665" y="247" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603643430357" />
     <state x="726" y="52" key="#自动导入" timestamp="1600590236943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -674,12 +638,12 @@
     <state x="207" y="66" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1603110753802" />
     <state x="330" y="8" key="#项目结构/0.0.1440.860@0.0.1440.860" timestamp="1600304361070" />
     <state x="440" y="94" width="1231" height="852" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1603474361006" />
-    <state x="470" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603292176348">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="661" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603704419883">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="470" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1603292176348" />
     <state x="551" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1602642958641" />
-    <state x="661" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1602835074973" />
+    <state x="661" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1603704419883" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600684809950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -818,25 +782,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="793" y="239" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600684648962" />
-    <state x="-172" y="105" width="1141" height="728" key="SettingsEditor" timestamp="1603629406831">
+    <state x="252" y="74" width="1141" height="728" key="SettingsEditor" timestamp="1603719221468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="225" y="0" width="1141" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603382580696" />
     <state x="257" y="80" width="1140" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600304305535" />
     <state x="443" y="103" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602732739784" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1600082244257" />
-    <state x="-172" y="105" width="1342" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603629406831" />
+    <state x="252" y="74" width="1342" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603719221468" />
     <state x="614" y="240" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602597969591" />
     <state x="833" y="167" key="VCS.ChangeListViewerDialog" timestamp="1603636120864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="833" y="167" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603636120864" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1603638749394">
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2" timestamp="1603640837575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603382504649" />
     <state x="277" y="212" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1600308914862" />
-    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603638749394" />
+    <state x="369" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603640837575" />
     <state x="413" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603437952835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -858,11 +822,11 @@
     <state x="622" y="183" width="628" height="325" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1602256190043" />
     <state x="626" y="221" width="738" height="338" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603472881234" />
     <state x="874" y="272" width="628" height="482" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602253925255" />
-    <state x="483" y="106" width="663" height="460" key="refactoring.ChangeSignatureDialog" timestamp="1602931850083">
+    <state x="483" y="106" width="663" height="460" key="refactoring.ChangeSignatureDialog" timestamp="1603643052164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="362" y="88" width="663" height="460" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1600313181788" />
-    <state x="483" y="106" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602931850083" />
+    <state x="483" y="106" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603643052164" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600094670473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

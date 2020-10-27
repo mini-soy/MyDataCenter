@@ -25,7 +25,7 @@ class MinecraftServerLib(manager: MinecraftServerManager) {
 	
 	val libproperties = Properties()
 	
-	init{
+	init {
 		File(libpath, "config.properties").apply {
 			if (!exists()) {
 				libproperties.setProperty("mc_version_url",
@@ -52,16 +52,27 @@ class MinecraftServerLib(manager: MinecraftServerManager) {
 				libproperties.setProperty("velocity_jenkins_url",
 						"https://ci.velocitypowered.com/job/velocity/")
 				
+				libproperties.setProperty("paper_download_url",
+						"https://papermc.io/api/v1/paper")
+				
+				libproperties.setProperty("waterfall_download_url",
+						"https://papermc.io/api/v1/waterfall")
+				
+				
 				
 				this.createNewFile()
-				libproperties.store(FileWriter(this),"")
+				libproperties.store(FileWriter(this), "")
 			} else {
 				libproperties.load(FileReader(this))
 			}
 		}
 	}
 	
-	fun createFabricServer(fabric_loader_version: String, minecraft_version: String, path: File) {
+	fun downloadVanillaServer(version: String = "latest", snapshot: Boolean = false) {
+	
+	}
+	
+	fun createFabricServer(fabric_loader_version: String = "latest", minecraft_version: String = "latest", path: File) {
 	
 	}
 }
