@@ -63,8 +63,8 @@ function loadWeatherData(){
 function w_apply() {
 	$("#w_city").html(w_city);
 	$("#w_temp").html(w_temp+'℃');
-	$("#w_temp_low").html(w_temp_low);
-	$("#w_temp_high").html(w_temp_high);
+	$("#w_temp_low").html(w_temp_low+'℃');
+	$("#w_temp_high").html(w_temp_high+'℃');
 	$("#w_weather_code").html(w_weather_code);
 	$("#w_weather").html(w_weather);
 	$("#w_wind_dir").html(wind_dir);

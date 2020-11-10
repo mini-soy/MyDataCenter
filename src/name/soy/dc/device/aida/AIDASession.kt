@@ -1,5 +1,6 @@
 package name.soy.dc.device.aida
 
+import name.soy.dc.DataCenter
 import name.soy.dc.log.LogEntry
 import name.soy.dc.log.LogManager
 import org.jsoup.helper.HttpConnection
@@ -12,7 +13,7 @@ import java.util.logging.Level
  * 基于AIDA64的LCD Remote Sensor来建立的连接检查系统
  */
 class AIDASession(address:String, port:Int, var data: DeviceData):Thread("${data.device.getDeviceName()}->AIDASession") {
-	var url = "http://${address}:${port}/sse"
+	var url = "http://$address:$port/sse"
     lateinit var stream:LineNumberReader
 	init {
 		init(0)
@@ -23,7 +24,7 @@ class AIDASession(address:String, port:Int, var data: DeviceData):Thread("${data
 	 */
 	fun init(count:Int) {
 		if(count>=10) {
-			LogManager.get!!.log(LogEntry.AIDA, Level.WARNING, "AIDA目标:\"${url}\"已经尝试10次获取,均为失败")
+			DataCenter().log().log(LogEntry.DEVICE, Level.WARNING, "AIDA目标:\"$url\"已经尝试10次获取,均为失败")
 			println("AIDA目标:\"${url}\"已经尝试10次获取,均为失败")
 		}
 		try {

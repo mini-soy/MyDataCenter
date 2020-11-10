@@ -13,7 +13,7 @@ interface PlatformInterface {
 	 *
 	 * @return 总粉丝数
 	 */
-	val fans: Int
+	var fans: Int
 
 	/**
 	 *
@@ -25,17 +25,17 @@ interface PlatformInterface {
 	 *
 	 * @return 总播放量
 	 */
-	val play: Int
+	var play: Int
 
 	/**
 	 *
 	 * @return
 	 */
-	val like: Int
+	var like: Int
 	fun hasLike(): Boolean
-	val fav: Int
+	var fav: Int
 	fun hasFav(): Boolean
-	val income: Double
+	var income: Double
 	fun fresh(): Boolean
 	fun vaild(): Boolean
 }

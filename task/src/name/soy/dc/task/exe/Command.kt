@@ -2,15 +2,17 @@ package name.soy.dc.task.exe
 
 import name.soy.dc.task.Aligns
 import name.soy.dc.task.exe.Executable.ExecuteProgress
+import java.io.File
 import java.io.IOException
 import java.io.InputStreamReader
 import java.io.Reader
 
-class Command : RemoteExecutable() {
+open class Command : RemoteExecutable() {
 
 	override fun remoteParameters(): () -> HashMap<String, Aligns<*>> =  {
 		HashMap<String, Aligns<*>>().apply {
-			this["command"] = Aligns.createString(null,null,true)
+			this["command"] = Aligns.createString(hashSetOf(), null, true)
+			this["folder"] = Aligns.createString(hashSetOf(), null, true)
 		}
 	}
 
@@ -32,7 +34,9 @@ class Command : RemoteExecutable() {
 			try {
 				val cmd = dataset["command"] as String
 				val startTime = System.currentTimeMillis()
-				exec = Runtime.getRuntime().exec(cmd)
+				exec = ProcessBuilder(cmd)
+						.directory(File(dataset["folder"] as String))
+						.start()
 				val `in`: Reader = InputStreamReader(exec.inputStream, "GBK")
 				val sb = StringBuilder()
 				while (true) {

@@ -19,6 +19,6 @@ class AlignForm : HttpServlet() {
 	@Throws(ServletException::class, IOException::class)
 	override fun doGet(req: HttpServletRequest, resp: HttpServletResponse) {
 		resp.contentType = "application/json; charset=utf-8"
-		super.doGet(req, resp)
+		
 	}
 }

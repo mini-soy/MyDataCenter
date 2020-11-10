@@ -42,6 +42,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.37" level="application_server_libraries" />
+    <orderEntry type="library" name="KotlinJavaRuntime (2)" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -52,8 +54,11 @@
         <jarDirectory url="file://$MODULE_DIR$/../Tomcat 9.0/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.37" level="application_server_libraries" />
-    <orderEntry type="library" name="KotlinJavaRuntime (2)" level="project" />
+    <orderEntry type="library" name="vue" level="application" />
+    <orderEntry type="library" name="echarts" level="application" />
+    <orderEntry type="library" name="jquery.cookie" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="module" module-name="minecraft" />
     <orderEntry type="module" module-name="protocol" />
     <orderEntry type="module" module-name="task" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.52.Final" level="project" />

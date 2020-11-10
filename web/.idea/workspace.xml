@@ -2,77 +2,231 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3de81d-6e33-4009-9306-8e591cd2a26e" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/AlignInteractive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/RemoteHandle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/utils/AlignInteractiveData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/RemoteHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/minecraft/FabricCompile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task/task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/task/ClientRemoteHandle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/minecraft.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/Mirror.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/VersionManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/creator/Creator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/handle/IMinecraftServerManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/lib/FabricVersionLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/lib/PaperVersionLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/lib/SpigotVersionLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/lib/VanillaVersionLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/lib/VersionLib.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/MinecraftServerLib$updatecheck$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/creator/Creator$WhenMappings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/creator/Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/task/ClientRemoteHandle$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/task/ClientRemoteHandle$run$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/task/ClientRemoteHandle$run$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/task/ClientRemoteHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskPost.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/ServerUniverse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/CloudFileCache.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/handle/MCServerCreateHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/sidebar_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/DataCenter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/artifacts/DataCenter_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__name_soy_dc_minecraft_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime__2_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataCenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataCenter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/centerclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/minecraft/Creator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/Creator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centerclient/target/classes/name/soy/dc/client/CenterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../centerclient/target/classes/name/soy/dc/client/CenterClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/name/soy/dc/client/CenterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/CenterClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/Creator.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerLib.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/name/soy/dc/minecraft/MinecraftServerLib.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/name/soy/dc/client/minecraft/MinecraftServerManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/AlignManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/DataCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/client/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/client/ClientManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager$TempSocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/DeviceManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/LocalDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntrySimple$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDAEntrySimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/AIDASession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/device/aida/DeviceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/exe/LocalCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$LogData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$LogData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$log$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$log$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager$queryLog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/log/LogManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/MediaCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/MediaCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/Platform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/Platforms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/platform/Bilibili.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/media/platform/Bilibili.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/minecraft/MinecraftManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/minecraft/MinecraftManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/minecraft/VersionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/minecraft/VersionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/packets/CMDResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/packets/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/packets/Packet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/PacketManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/PacketManager$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/PacketManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/PacketManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/data/minecraft/ServerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/data/minecraft/ServerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/packets/minecraft/ServerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/packets/minecraft/ServerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/packets/minecraft/ServerLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/protocol/packets/minecraft/ServerLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/Aligns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/DeviceData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/DeviceList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/Initialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/Verify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/ws/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/servlet/ws/MonitorSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/sql/SQLSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/sql/SQLSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Aligns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Executable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Parameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/ScheduleSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/exe/RemoteHandle$run$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/exe/RemoteHandle$run$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/exe/RemoteHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/exe/SpigotCompileAligner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/tasks/exe/SpigotCompileAligner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/MsgHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSDeciveInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/utils/WSMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/SideBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/SideBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/servlet/AlignForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/servlet/AlignForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/servlet/MenuList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/servlet/MenuList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/servlet/ws/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/classes/name/soy/dc/web/servlet/ws/Monitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/lib/annotations-13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/lib/kotlin-stdlib-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/lib/kotlin-stdlib-common-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/lib/kotlin-stdlib-jdk7-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/WEB-INF/lib/kotlin-stdlib-jdk8-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/css/transiton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/device.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/device.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/DataCenter_war_exploded/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/CenterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/CenterClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/Creator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/MinecraftServerLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/MinecraftServerLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/MinecraftServerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/client/name/soy/dc/client/minecraft/MinecraftServerManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/protocol.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/PacketManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/PacketManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/IClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/IClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegServer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/RegServer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/data/minecraft/ServerType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/data/minecraft/ServerType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerCommand.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/minecraft/ServerLog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskCreate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskResult.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/src/name/soy/dc/protocol/packets/task/TaskState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/PacketManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/PacketManager$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/PacketManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/PacketManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/data/minecraft/ServerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/data/minecraft/ServerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/packets/minecraft/ServerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/packets/minecraft/ServerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/packets/minecraft/ServerLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../protocol/target/classes/name/soy/dc/protocol/packets/minecraft/ServerLog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/DataCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/DataCenter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/client/Client.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/client/ClientBase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/code/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/IDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/IDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/client/ClientManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/client/ClientManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/DeviceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/DeviceManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/DeviceType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/DeviceType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/LocalDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/LocalDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/RemoteDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/RemoteDevice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/IMinecaftHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/IMinecraftHub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/AIDAEntry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/AIDAEntry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/AIDAEntrySimple.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/AIDAEntrySample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/AIDASession.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/AIDASession.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/DeviceData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/device/aida/DeviceData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/log/LogEntry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/log/LogEntry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/log/LogManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/log/LogManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/media/MediaCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/media/MediaCenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/media/Platform.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/media/Platform.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/media/platform/Bilibili.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/media/platform/Bilibili.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftServerInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/MinecraftServerInstance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/compile/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/IPluginData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/IPluginData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/VersionManager.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/PluginManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/minecraft/plugins/PluginManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/AlignForm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/DeviceList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/DeviceList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Initialize.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Initialize.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Verify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/Verify.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/servlet/ws/Monitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/servlet/ws/Monitor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Aligns.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/sql/SQLSystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/sql/SQLSystem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/ScheduleSystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/ScheduleSystem.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/Task.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/TaskManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/TaskManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/Executable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Executable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/ExecuteProgressCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/ProgressStat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/ProgressStat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/RemoteExecutable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/RemoteHandle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/CloudRemoteHandle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/SpigotCompileAligner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/tasks/exe/SpigotCompileAligner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/utils/Aligner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/utils/Aligner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/utils/WSMsg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/utils/WSMsg.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/web/SideBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/web/SideBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/web/servlet/AlignForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/web/servlet/AlignForm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/name/soy/dc/web/servlet/ws/Monitor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/name/soy/dc/web/servlet/ws/Monitor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Aligns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Aligns.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Executables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/Executables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/ExecuteProgressCallback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/ExecuteProgressCallback.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/FileCache.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/handle/FileCacheHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/RemoteHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/handle/RemoteHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Executable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/Executable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/FileDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/FileDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/JenkinsDownload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/JenkinsDownload.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/RemoteExecutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/RemoteExecutable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task/src/name/soy/dc/task/exe/minecraft/SpigotCompile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Aligns$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Aligns$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Aligns.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Aligns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Executables$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Executables$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Executables.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/Executables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/ExecuteProgressCallback$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/ExecuteProgressCallback$Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/ExecuteProgressCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/ExecuteProgressCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/FileCache$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/FileCache$DefaultImpls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/FileCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/RemoteHandler$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/RemoteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command$LocalCommandRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command$LocalCommandRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command$remoteParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command$remoteParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command$returnParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command$returnParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Executable$ExecuteProgress$postRun$$inlined$also$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Executable$ExecuteProgress$postRun$$inlined$also$lambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Executable$ExecuteProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/Executable$ExecuteProgress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$LocalFileDownloadProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$LocalFileDownloadProgress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$remoteParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$remoteParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$returnParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload$returnParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/FileDownload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$JenkinsProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$JenkinsProgress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$remoteParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$remoteParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$returnParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload$returnParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/JenkinsDownload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/RemoteExecutable$RemoteProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/RemoteExecutable$RemoteProgress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/RemoteExecutable$needParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/RemoteExecutable$needParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/RemoteExecutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/RemoteExecutable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$SpigotCompileProgress$run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$SpigotCompileProgress$run$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$SpigotCompileProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$SpigotCompileProgress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$remoteParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$remoteParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$returnParameters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile$returnParameters$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task/target/classes/name/soy/dc/task/exe/minecraft/SpigotCompile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task/task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../task/task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/transition.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/transition.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device.html" beforeDir="false" afterPath="$PROJECT_DIR$/device.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/monitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/echarts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据中心.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../数据中心.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +246,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="E:/class/脚本(js)/07/t07_2-定时器应用练习/t7_2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.默认语言" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,20 +270,24 @@
       <workItem from="1602677173769" duration="22000" />
       <workItem from="1603470873033" duration="85000" />
       <workItem from="1603471100596" duration="16000" />
+      <workItem from="1604248333636" duration="324000" />
+      <workItem from="1604248668006" duration="4620000" />
+      <workItem from="1604646579436" duration="1368000" />
+      <workItem from="1604821415027" duration="59000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1603471114679">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1604821472875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603471114679" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1603470908637">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604821472875" />
+    <state x="550" y="81" key="SettingsEditor" timestamp="1604293964563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603470908637" />
+    <state x="550" y="81" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604293964563" />
   </component>
 </project>

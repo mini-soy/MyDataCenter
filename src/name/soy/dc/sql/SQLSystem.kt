@@ -17,8 +17,8 @@ class SQLSystem(center: DataCenter) {
 	fun execute(sql: String): Boolean {
 		try {
 			return conn!!.createStatement().execute(sql)
-		} catch (throwables: SQLException) {
-			throwables.printStackTrace()
+		} catch (e: SQLException) {
+			e.printStackTrace()
 		}
 		return false
 	}
@@ -26,8 +26,8 @@ class SQLSystem(center: DataCenter) {
 	fun query(sql: String): ResultSet? {
 		try {
 			return conn!!.createStatement().executeQuery(sql)
-		} catch (throwables: SQLException) {
-			throwables.printStackTrace()
+		} catch (e: SQLException) {
+			e.printStackTrace()
 		}
 		return null
 	}

@@ -8,5 +8,6 @@ data class ServerCommand(
 	var command: String = ""
 ):Packet {
 	override fun channel(): PacketChannel = PacketChannel.MINECRAFT_SERVER
+	
 	override fun direction() = Packet.SERVER_TO_CLIENT
 }

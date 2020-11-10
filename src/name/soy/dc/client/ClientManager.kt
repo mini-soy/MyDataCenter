@@ -34,7 +34,8 @@ class ClientManager(val center: DataCenter) {
                     .option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.SO_BACKLOG, 128)
                     .bind(SERVER_PORT)
-                    .sync()
+                    .sync();
+            
         } catch (e: InterruptedException) {
             e.printStackTrace()
         }

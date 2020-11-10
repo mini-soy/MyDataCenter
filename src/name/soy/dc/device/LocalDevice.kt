@@ -11,13 +11,17 @@ import java.io.Reader
 import java.net.Inet4Address
 import java.net.UnknownHostException
 import java.util.function.Consumer
+import kotlin.concurrent.thread
 
 class LocalDevice(val manager: DeviceManager) : IDevice {
 	var data: DeviceData
 	var session: AIDASession
 
 	override fun sendCmd(cmd: String, callback: Consumer<Executable.ExecuteProgress>) {
-		TODO("Not yet implemented")
+		thread(name = "local-run"+System.currentTimeMillis()) {
+			Runtime.getRuntime().exec(cmd)
+			
+		}
 	}
 	
 	override fun getDeviceName(): String = try {
@@ -33,9 +37,11 @@ class LocalDevice(val manager: DeviceManager) : IDevice {
 	override fun getDeviceData(): DeviceData {
 		return data
 	}
-
-	override fun unaryPlus(): Client = (!manager).client[getDeviceName()]
-
+	
+	/**
+	 * 向上转型为客户端
+	 */
+	override fun unaryPlus(): Client = (!manager).client()[getDeviceName()]
 
 	init {
 		data = DeviceData(this)

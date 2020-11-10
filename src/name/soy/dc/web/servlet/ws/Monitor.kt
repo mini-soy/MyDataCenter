@@ -27,14 +27,14 @@ class Monitor {
 	@Throws(IOException::class)
 	fun onMessage(message: String, session: Session) {
 		val obj = JsonParser.parseString(message) as JsonObject
-		val msession = sessions[session]
+		val msession: MonitorSession? = sessions[session]
 		if (!msession!!.authed) {
 			if (obj["type"].asString == "auth") {
 				val vcode = obj["data"].asString
 				if (Verify.validcode(vcode)) {
 				} else {
 					try {
-						val sobj = WSMsg.INVALID_SESSION.get()
+						val sobj = WSMsg.INVALID_SESSION()
 						session.basicRemote.sendText(sobj.toString())
 						session.close()
 						return
@@ -44,7 +44,7 @@ class Monitor {
 				}
 			} else {
 				try {
-					val sobj = WSMsg.INVALID_SESSION.get()
+					val sobj = WSMsg.INVALID_SESSION()
 					session.basicRemote.sendText(sobj.toString())
 					session.close()
 					return
@@ -60,7 +60,7 @@ class Monitor {
 				val d: IDevice? = DataCenter().device()[dcode]
 				if (d == null) {
 					try {
-						val sobj = WSMsg.INVALID_DEVICE.get()
+						val sobj = WSMsg.INVALID_DEVICE()
 						session.basicRemote.sendText(sobj.toString())
 						return
 					} catch (e: IOException) {
@@ -69,7 +69,7 @@ class Monitor {
 				}
 			} else {
 				try {
-					val sobj = WSMsg.INVALID_DEVICE.get()
+					val sobj = WSMsg.INVALID_DEVICE()
 					session.basicRemote.sendText(sobj.toString())
 					return
 				} catch (e: IOException) {

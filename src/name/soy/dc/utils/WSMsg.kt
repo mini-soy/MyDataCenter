@@ -5,20 +5,22 @@ import java.util.function.Supplier
 
 enum class WSMsg(o: Supplier<JsonObject>) {
 	INVALID_DEVICE(Supplier<JsonObject> {
-		val json = JsonObject()
-		json.addProperty("level", "error")
-		json.addProperty("data", "设备不存在！")
-		json
+		JsonObject().apply {
+			addProperty("level", "error")
+			addProperty("data", "设备不存在！")
+		}
+		
 	}),
 	DEVICE_OK(Supplier<JsonObject> {
-		val json = JsonObject()
-		json.addProperty("level", "nice")
-		json
+		JsonObject().apply {
+			addProperty("level", "nice")
+		}
+		
 	}),
 	AIDA_DATA(Supplier<JsonObject> {
-		val json = JsonObject()
-		json.addProperty("level", "nice")
-		json
+		JsonObject().apply {
+			addProperty("level", "nice")
+		}
 	}),
 	INVALID_SESSION(Supplier<JsonObject> {
 		val json = JsonObject()
@@ -26,14 +28,11 @@ enum class WSMsg(o: Supplier<JsonObject>) {
 		json.addProperty("data", "验证失败")
 		json
 	});
-
-	private val json: JsonObject
-	fun get(): JsonObject {
-		return json.deepCopy()
+	
+	private val json: JsonObject = o.get().apply {
+		addProperty("type", name.toLowerCase())
 	}
-
-	init {
-		json = o.get()
-		json.addProperty("type", name.toLowerCase())
+	operator fun invoke(): JsonObject {
+		return json.deepCopy()
 	}
 }

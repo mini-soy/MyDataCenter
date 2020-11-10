@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>数 据 中 心</title>
-    <!-- jquery,jquery-cookie,charts,vue依赖 -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/jquery.cookie.js"></script>
-    <script src="./js/echarts.js"></script>
-    <script src="./js/vue.js"></script>
-    <link rel="stylesheet" href="./css/head.css"/>
-    <link rel="stylesheet" href="./css/main.css"/>
-    <link rel="stylesheet" href="./css/foot.css"/>
-    <link rel="stylesheet" href="./css/transition.css">
+	<meta charset="UTF-8">
+	<title>数 据 中 心</title>
+	<!-- jquery,jquery-cookie,charts,vue依赖 -->
+
+	<script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.js"></script>
+	<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+	<script src="https://cdn.staticfile.org/echarts/4.8.0/echarts.js"></script>
+	<script src="https://cdn.staticfile.org/vue/2.6.9/vue.js"></script>
+	<link rel="stylesheet" href="./css/head.css"/>
+	<link rel="stylesheet" href="./css/main.css"/>
+	<link rel="stylesheet" href="./css/foot.css"/>
+	<link rel="stylesheet" href="./css/transition.css">
 </head>
 
 <body>
-    
+
+<div id="sidebar">
+
+</div>
+<script>
+	$.ajax({
+		url: "./menus",
+		dataType: "json",
+		success: function (data) {
+
+		}
+	});
+</script>
 </body>
 </html>

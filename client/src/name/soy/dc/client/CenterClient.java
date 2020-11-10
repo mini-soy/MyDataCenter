@@ -11,18 +11,18 @@ import java.util.Properties;
 
 public class CenterClient {
 	public static CenterClient center;
-	String computername;
+	String computerName;
 	File config;
 	MinecraftServerManager mcsm;
 	Properties properties;
 
 	CenterClient() throws IOException {
-		computername = Inet4Address.getLocalHost().getHostName();
-		System.out.println(computername);
+		computerName = Inet4Address.getLocalHost().getHostName();
+		System.out.println(computerName);
 
 		config = new File("config.properties");
-
 		properties = new Properties();
+
 		if (!config.exists()) {
 			properties.setProperty("ip", "mapland.cn");
 			properties.setProperty("port", "21212");
@@ -35,8 +35,6 @@ public class CenterClient {
 		if (Boolean.parseBoolean(properties.getProperty("minecraft_content"))) {
 			mcsm = new MinecraftServerManager(this);
 		}
-
-
 	}
 
 	public static void main(String[] args) {

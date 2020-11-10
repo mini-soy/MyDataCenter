@@ -5,6 +5,6 @@ import name.soy.dc.annotation.Manager
 import java.util.*
 
 @Manager("media")
-class MediaCenter(dataCenter: DataCenter?) {
+class MediaCenter(center: DataCenter) {
 	var alldatas: List<PlatformData> = ArrayList()
 }

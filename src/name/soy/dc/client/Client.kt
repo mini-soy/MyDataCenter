@@ -28,7 +28,11 @@ open class Client(override val name:String, private val manager: ClientManager) 
 	override fun channelRead(ctx: ChannelHandlerContext, msg: Any) {
 		PacketManager.receivePacket(this, msg as ByteBuf)
 	}
-
+	lateinit var ctx: ChannelHandlerContext
+	override fun channelActive(ctx: ChannelHandlerContext) {
+		this.ctx = ctx
+		super.channelActive(ctx)
+	}
 	override fun getDevice(): IDevice {
 		TODO("Not yet implemented")
 	}
@@ -40,11 +44,17 @@ open class Client(override val name:String, private val manager: ClientManager) 
 
 	override fun isLocal()= false
 
-	override fun sendPacket(packet: Packet) {}
+	override fun sendPacket(packet: Packet) {
+		ctx.writeAndFlush(packet)
+	}
 
-	override fun onPacket(packet: RegDevice) {}
+	override fun onPacket(packet: RegDevice) {
+	
+	}
 
-	override fun onPacket(packet: TaskCreate) {}
+	override fun onPacket(packet: TaskCreate) {
+	
+	}
 
 	override fun onPacket(packet: TaskState) {}
 

@@ -6,18 +6,21 @@ import name.soy.dc.task.exe.Executable.ExecuteProgress
 data class ExecuteProgressCallback(
 		val old: Data,
 		val new: Data,
-		val prog: ExecuteProgress) {
+		val prog: ExecuteProgress,
+) {
 	data class Data(
-			val progress:Int,
+			val progress: Int,
 			val text: String,
-			val stat: ProgressStat)
-	operator fun unaryPlus():Data = new
+			val stat: ProgressStat,
+	)
 	
-	operator fun unaryMinus():Data = old
+	operator fun unaryPlus(): Data = new
 	
-	fun changedProgress(): Boolean = old.progress != new.progress
-
-	fun changedText(): Boolean = old.text != new.text
-
-	fun changedStat(): Boolean = old.stat != new.stat
+	operator fun unaryMinus(): Data = old
+	
+	fun changedProgress() = old.progress != new.progress
+	
+	fun changedText() = old.text != new.text
+	
+	fun changedStat() = old.stat != new.stat
 }

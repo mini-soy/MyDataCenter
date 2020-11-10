@@ -6,6 +6,7 @@ enum class DeviceType(val type:String) {
     PHONE("手机"),
     SERVER("服务器"),
     CLOUD("云服务器"),
-    UNKNOWN("未知");
-
+    UNKNOWN("未知"),
+    ;
+    
 }

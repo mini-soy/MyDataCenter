@@ -5,8 +5,8 @@ import name.soy.dc.task.Aligns
 abstract class Aligner(
 	val data: HashMap<String, Aligns<*>> = HashMap()
 ) {
-	abstract fun alignDataGet(values:HashMap<String, Any>);
-
+	abstract fun alignDataGet(values:HashMap<String, Any>)
+	
 	fun reCallback(){
 
 	}

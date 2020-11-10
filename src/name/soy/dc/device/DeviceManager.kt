@@ -6,32 +6,31 @@ import java.net.ServerSocket
 import java.util.*
 
 @Manager("device")
-class DeviceManager(center: DataCenter) {
+class DeviceManager(val center: DataCenter) {
 	
-	operator fun not():DataCenter = center
+	operator fun not() = center
 	
-	private val local: LocalDevice = LocalDevice(this)
-	fun local(): LocalDevice {
-		return local
-	}
-
+	private val local = LocalDevice(this)
+	
+	fun local() = local
+	
 	/**
 	 * 所有设备，包括本地设备
 	 */
 	var devices = Vector<IDevice>()
-	internal val center: DataCenter
+	
 	operator fun get(device: String): IDevice? {
-		for (d in devices) if (d.getDeviceName() == device) return d
+		for (d: IDevice in devices) if (d.getDeviceName() == device) return d
 		return null
 	}
-
+	
 	fun isLocal(device: String): Boolean {
 		return local.getDeviceName() == device
 	}
-
+	
 	init {
 		devices.add(local)
-		this.center = center
+		
 		println("DeviceManager已经部署")
 	}
 }

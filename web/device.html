@@ -30,7 +30,6 @@
 	<!-- WebSocket通信 -->
 	<script src="js/monitor.js"></script>
 
-
 	<script>
 		var delay;
 	</script>
@@ -73,14 +72,14 @@
 				//渲染完毕就可以来做效果
 				devicesv.$nextTick(function(){
 					$("#top li").each(function (index,element) {
-						var d = 600*device;
+						var d = 600*delay;
 						setTimeout(function() {
 							element.className = "top-entry";
 						}, d);
 						delay = delay>d?delay:d;
 					});
 					$("#top>ul div").each(function (index,element) {
-						var d = 600*device;
+						var d = 600*delay;
 						setTimeout(function() {
 							element.className = "top-entry-bg";
 						}, d);
@@ -91,6 +90,7 @@
 		});
 		devicesv.computed = {
 			deviceurl:function(device) {
+
 
 			}
 		}

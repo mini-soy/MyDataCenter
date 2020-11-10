@@ -8,5 +8,6 @@ data class ServerLog(
 	var lineData: String = ""
 ) : Packet {
 	override fun channel(): PacketChannel = PacketChannel.MINECRAFT_SERVER
+	
 	override fun direction() = Packet.CLIENT_TO_SERVER
 }

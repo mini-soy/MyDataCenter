@@ -4,16 +4,23 @@ import name.soy.dc.task.exe.*
 import name.soy.dc.task.exe.minecraft.SpigotCompile
 
 
-enum class Executables(val exe: Executable) {
-	COMMAND(Command()),
-	FILE_DOWNLOAD(FileDownload()),
-	JENKINS_DOWNLOAD(JenkinsDownload()),
-	SPIGOT_COMPILE(SpigotCompile());
-	init {
-		Executables.exemap[exe.getName()] = exe
-	}
+class Executables(val exe: Executable) {
+
+	
 	operator fun invoke() = exe
 	companion object{
-		val exemap = HashMap<String,Executable>()
+		val COMMAND = this(Command())
+		val FILE_DOWNLOAD = this(FileDownload())
+		val JENKINS_DOWNLOAD = this(JenkinsDownload())
+		val SPIGOT_COMPILE = this(SpigotCompile())
+		
+		
+		
+		val exemap = HashMap<String,Executable>();
+		
+		operator fun invoke(exe: Executable): Executables {
+			exemap[exe.getName()] = exe
+			return Executables(exe)
+		}
 	}
 }

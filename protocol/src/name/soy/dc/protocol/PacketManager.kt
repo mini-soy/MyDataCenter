@@ -1,11 +1,8 @@
 package name.soy.dc.protocol
 
-import com.sun.xml.internal.messaging.saaj.util.ByteInputStream
 import io.netty.buffer.ByteBuf
-import java.io.ByteArrayOutputStream
-import java.io.ObjectInputStream
-import java.io.ObjectOutputStream
-import java.io.Serializable
+
+import java.io.*
 
 class PacketManager {
 	companion object{
@@ -24,13 +21,12 @@ class PacketManager {
 			val readcount = buf.readInt()
 			val buffer = ByteArray(readcount)
 			buf.readBytes(buffer)
-			val `in` = ByteInputStream()
-			`in`.setBuf(buffer)
+			val `in` = ByteArrayInputStream(buffer)
 			val o_in = ObjectInputStream(`in`)
 			return o_in.readObject() as Serializable
 		}
 		fun receivePacket(handler: IClientHandler, buf: ByteBuf){
-			var obj = readObject(buf)
+			val obj = readObject(buf)
 			handler.javaClass.getMethod("onPacket",obj.javaClass).invoke(handler,obj)
 		}
 	}

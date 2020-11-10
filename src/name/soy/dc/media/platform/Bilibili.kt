@@ -29,6 +29,7 @@ class Bilibili : PlatformInterface {
 	}
 
 	lateinit var yestoday: BilibiliData
+
 	override fun where(): Platform = Platform.BILIBILI
 	
 
