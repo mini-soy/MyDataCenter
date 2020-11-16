@@ -9,9 +9,6 @@ class MonitorSession(val session: Session) {
 	fun disconnect() {}
 
 	init {
-		if (!Monitor.dsessions.containsKey(device)) {
-			Monitor.dsessions[device] = arrayListOf()
-		}
-		Monitor.dsessions[device]?.add(this)
+		Monitor.dsessions.computeIfAbsent(device) { arrayListOf() }.add(this@MonitorSession);
 	}
 }

@@ -1,7 +1,7 @@
 package name.soy.dc.minecraft
 
 import name.soy.dc.minecraft.handle.IMinecraftServerManager
-import name.soy.dc.minecraft.lib.VanillaVersionLib
+import name.soy.dc.minecraft.version.VanillaVersionLib
 import java.io.File
 import java.io.FileReader
 import java.io.FileWriter
@@ -9,31 +9,28 @@ import java.util.*
 
 //负责管理MC服务器产品的库
 class MinecraftServerLib(val version: VersionManager) {
-	val manager = IMinecraftServerManager();
-	val update_check = Thread({
-	
-	}, "minecraft update check")
+	val manager = IMinecraftServerManager.invoke();
 	
 	val libpath = File(manager.serverJarDir(), "library").apply {
 		if (!isDirectory)
 			mkdir()
 	}
 	
-	val fabric_path = lib("fabric")
+	val fabric_path:File = lib("fabric")
 	
-	val spigot_path = lib("spigot")
+	val spigot_path:File = lib("spigot")
 	
-	val paper_path = lib("paper")
+	val paper_path:File = lib("paper")
 	
-	val vanilla_path = lib("vanilla")
+	val vanilla_path:File = lib("vanilla")
 	
 	val libproperties = Properties()
-	private fun lib(path:String):File = File(libpath, "").apply {
+	private fun lib(path: String): File = File(libpath,"").apply {
 		if (!isDirectory)
 			mkdir()
 	}
+	
 	init {
-		update_check.start()
 		File(libpath, "config.properties").apply {
 			if (!exists()) {
 				libproperties.setProperty("mc_version_url",
@@ -75,22 +72,23 @@ class MinecraftServerLib(val version: VersionManager) {
 		}
 	}
 	
-	fun downloadVanillaServer(version: String = "latest", snapshot: Boolean = false, mirror: Mirror = this.version.system_mirror)  {
-		var res = this.version.vanilla.run {
+	fun downloadVanillaServer(version: String = "latest", snapshot: Boolean = false, mirror: Mirror = this.version.system_mirror): Boolean {
+		var res:Int = this.version.vanilla.run {
 			when {
 				//最新快照
-				version == "latest" && snapshot ->  downloadServer(this[latestSnapshot]!!, mirror)
+				version == "latest" && snapshot -> downloadServer(this[latestSnapshot]!!, mirror)
 				//最新稳定版
 				version == "latest" && !snapshot -> downloadServer(this[latestRelease]!!, mirror)
 				//其他
 				else -> downloadServer(this[version]!!, mirror)
 			}
 		}
+		return res <= 0
 	}
+	
 	fun getVanillaServerFile(version: VanillaVersionLib.VanillaVersion) = getVanillaServerFile(version.version)
 	
-	fun getVanillaServerFile(version: String):File = File(vanilla_path, "server-$version.jar")
-	
+	fun getVanillaServerFile(version: String): File = File(vanilla_path, "server-$version.jar")
 	
 	fun createFabricLoaderJar(fabric_loader_version: String = "latest", minecraft_version: String = "latest", path: File) {
 	

@@ -19,12 +19,10 @@ class Monitor {
 	}
 
 	@OnClose
-	@Throws(IOException::class)
 	fun onClose(session: Session, reason: CloseReason) {
 	}
 
 	@OnMessage
-	@Throws(IOException::class)
 	fun onMessage(message: String, session: Session) {
 		val obj = JsonParser.parseString(message) as JsonObject
 		val msession: MonitorSession? = sessions[session]

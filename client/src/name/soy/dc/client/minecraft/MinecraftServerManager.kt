@@ -9,11 +9,9 @@ import java.io.FileReader
 import java.io.FileWriter
 import java.util.*
 
-class MinecraftServerManager(center: CenterClient):IMinecraftServerManager {
+class MinecraftServerManager(center: CenterClient): IMinecraftServerManager() {
     var properties: Properties = Properties()
     override lateinit var path: File
-    override lateinit var lib: MinecraftServerLib
-    var version: VersionManager
     init{
         File("mcsm.properties").apply {
             if(!exists()){
@@ -26,8 +24,6 @@ class MinecraftServerManager(center: CenterClient):IMinecraftServerManager {
         }
         path = File(properties.getProperty("path"))
         path.mkdirs()
-        version = VersionManager()
-        lib = MinecraftServerLib(version)
     }
     
     fun createServer(){

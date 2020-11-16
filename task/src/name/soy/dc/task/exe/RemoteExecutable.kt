@@ -12,8 +12,6 @@ abstract class RemoteExecutable : Executable {
 		 * 交付给指定设备，若为无，则为当前
 		 */
 		const val TARGET_DEVICE = "target_device"
-		
-		
 	}
 
 	final override fun needParameters(): () -> HashMap<String, Aligns<*>> = {

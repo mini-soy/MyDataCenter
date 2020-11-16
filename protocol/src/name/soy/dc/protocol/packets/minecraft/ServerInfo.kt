@@ -18,9 +18,14 @@ data class ServerInfo(
 	 */
 	var memory: Double = 0.0,
 	/**
+	 * 最大可用内存(MB)
+	 */
+	var maxMemory: Double = 0.0,
+	/**
 	 * 服务器类型
 	 */
-	var type: ServerType = ServerType.UNKNOWN
+	var type: ServerType = ServerType.UNKNOWN,
+	
 ) : Packet {
 	override fun channel(): PacketChannel = PacketChannel.MINECRAFT_SERVER
 	override fun direction() = Packet.CLIENT_TO_SERVER

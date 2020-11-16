@@ -37,31 +37,34 @@ class Bilibili : PlatformInterface {
 		return 0
 	}
 
-	override val fans: Int
-		get() = 0
-
+	override var fans: Int = 0
+	
 	override fun playUP(): Int {
 		return 0
 	}
 
-	override val play: Int
+	override var play: Int
 		get() = 0
-	override val like: Int
+		set(value) {}
+	override var like: Int
 		get() = 0
-
+		set(value) {}
+	
 	override fun hasLike(): Boolean {
 		return false
 	}
 
-	override val fav: Int
+	override var fav: Int
 		get() = 0
-
+		set(value) {}
+	
 	override fun hasFav(): Boolean {
 		return false
 	}
 
-	override val income: Double
+	override var income: Double
 		get() = 0.0
+		set(value) {}
 
 	override fun fresh(): Boolean {
 		return false

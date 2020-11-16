@@ -1,5 +1,7 @@
 package name.soy.dc.minecraft
 
-class ServerUniverse(minecraftManager: MinecraftManager) {
+import name.soy.dc.minecraft.link.LinkSystem
+
+class ServerUniverse(minecraftManager: MinecraftManager):LinkSystem {
 
 }

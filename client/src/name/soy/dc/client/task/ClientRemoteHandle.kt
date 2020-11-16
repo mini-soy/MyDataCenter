@@ -24,7 +24,6 @@ class ClientRemoteHandle(exe: RemoteExecutable) : RemoteExecutable.RemoteProgres
 			return localexe.run()
 		} else {
 			TODO("现在应该不需要吧...")
-			
 		}
 	}
 }
